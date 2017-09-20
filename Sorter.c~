@@ -1,0 +1,17 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include "Sorter.h"
+
+
+int main(int argc, char *argv[])
+{
+  char * headers = '\0';
+  fscanf(stdin, "%s", headers);
+
+  
+  
+  
+  return 0;
+}
+
