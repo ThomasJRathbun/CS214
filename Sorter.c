@@ -5,6 +5,8 @@
 #include <string.h>
 
 
+// ./sort -c movie_title
+
 int main(int argc, char *argv[])
  {
    char *inputStr = (char*) malloc(10000 * sizeof(char));
@@ -23,17 +25,17 @@ int main(int argc, char *argv[])
        numHeaders++;
      }
  
-   headers = (char**)(numHeaders * 100 * sizeof(char *));
+   headers = (char**)malloc(numHeaders *  sizeof(char*));
    int headerIndex = 0;
    for ( headerIndex; headerIndex < numHeaders; headerIndex++)
      {
        printf("headerIndex: %d\n",headerIndex);
        headers[headerIndex] = (char*)malloc(100 * sizeof(char));
        if ( headerIndex == 0 )
-	 headers[headerIndex] = strtok(inputStr,",");
+	 headers[headerIndex * 100] = strtok(inputStr,",");
        else
 	 {
-	   headers[headerIndex] = strtok(NULL,",");
+	   headers[headerIndex * 100] = strtok(NULL,",");
 
 	 }
        
@@ -42,7 +44,7 @@ int main(int argc, char *argv[])
    int i = 0;
    for( i; i < numHeaders; i++)
      {
-       printf( "%d : %s\n",i,headers[i]);
+       printf( "%d : %s\n",i,headers[i*(100)]);
      }
 
    return 0;
