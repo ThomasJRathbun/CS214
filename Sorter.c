@@ -7,11 +7,11 @@
 
 int main(int argc, char *argv[])
  {
-   char * inputStr;
+   char *inputStr = (char*) malloc(10000 * sizeof(char));
    char ** headers = NULL;
-   int numHeaders = 0;
+   int numHeaders = 1;
 
-   fscanf(stdin, "%s", inputStr);
+   scanf( "%s", inputStr);
    printf("%s \n",inputStr);
 
    char * test;
@@ -23,8 +23,27 @@ int main(int argc, char *argv[])
        numHeaders++;
      }
  
-   headers = (char**)(numHeaders * sizeof(char *));
+   headers = (char**)(numHeaders * 100 * sizeof(char *));
+   int headerIndex = 0;
+   for ( headerIndex; headerIndex < numHeaders; headerIndex++)
+     {
+       printf("headerIndex: %d\n",headerIndex);
+       headers[headerIndex] = (char*)malloc(100 * sizeof(char));
+       if ( headerIndex == 0 )
+	 headers[headerIndex] = strtok(inputStr,",");
+       else
+	 {
+	   headers[headerIndex] = strtok(NULL,",");
 
+	 }
+       
+     }
+
+   int i = 0;
+   for( i; i < numHeaders; i++)
+     {
+       printf( "%d : %s\n",i,headers[i]);
+     }
 
    return 0;
  }
