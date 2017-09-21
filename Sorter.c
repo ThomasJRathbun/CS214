@@ -1,4 +1,3 @@
-
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -25,13 +24,13 @@ int main(int argc, char *argv[])
      {
        printf("input:%s\n %d\n",test,numHeaders);
        test = strtok(NULL,",");
-       numHeaders++;
+       ++numHeaders;
      }
    printf("inputFile After initial read %s\n",inputStr);
    printf("inputFile After initial read %s\n",secondRead);
    headers = (char**)malloc(numHeaders *  sizeof(char*));
    int headerIndex = 0;
-   for ( headerIndex; headerIndex < numHeaders; ++headerIndex)
+   for ( headerIndex; headerIndex < numHeaders-1; ++headerIndex)
      {
        printf("headerIndex: %d\n",headerIndex);
        headers[headerIndex] = (char*)malloc(100 * sizeof(char));
@@ -44,33 +43,10 @@ int main(int argc, char *argv[])
      }
    printf("secondread After initial read %s\n",secondRead);
    int i = 0;
-   for( i; i < numHeaders; i++)
+   for( i; i < numHeaders-1; ++i)
      {
        printf( "%d : %s\n",i,headers[i*(100)]);
      }
 
    return 0;
  }
-
-   /*
-   int i =0;
-   printf("scanned\n");
-
-   int end =i -1;
-   i = 0;
-   while( i < end )
-     {
-       printf("header[%i]: %s\n",i,headers[i]);
-       i ++;
-     }
-   
-   /*   
-  node * dataHead = NULL;
-  dataHead = (node*) malloc(sizeof(node));
-  dataHead->data = malloc(
-  fscanf(stdin, "%s", headers);
-
-   */
-  
-
-
