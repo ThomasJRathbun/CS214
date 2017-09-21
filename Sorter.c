@@ -47,7 +47,7 @@ int getHeader(char* headerTitle, int * numberOfHeaders)//take a head of list
 	  found = TRUE;
 	}
       printf("[getHeader:Inside While]: increment: %d\n",*numberOfHeaders);
-      *numberOfHeaders++;
+      (*numberOfHeaders)++;
       
     }
   
