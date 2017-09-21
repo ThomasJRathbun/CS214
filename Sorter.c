@@ -9,6 +9,31 @@
 
 int main(int argc, char *argv[])
  {
+   //check flags
+   int options;
+   int cFlag =0;
+   char * headerTitle = "deault_header";
+   while( (options = getopt(argc, argv,"c:")) != -1 )
+     {
+       switch (options)
+	 {
+	 case 'c':
+	   {
+	     headerTitle = optarg;
+	     cFlag = 1;
+	     break;
+	   }
+	 }
+     }
+ 
+     if ( cFlag == 0 )
+     {
+       printf("No -c option: Please try again with a header selected to sort by\n");
+       return -1;
+     }
+
+
+     
    char * inputStr = (char*) malloc(10000 * sizeof(char));
    char ** headers = NULL;
    char * secondRead = (char*) malloc(1000* sizeof(char));
