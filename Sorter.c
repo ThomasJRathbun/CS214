@@ -86,8 +86,16 @@ int main(int argc, char *argv[])
      
      int chosenColumn=0;
      int numOfHeaders=0;
-     chosenColumn = getHeader( headerTitle, &numOfHeaders );
-     printf("chosenColumn: %d\n",chosenColumn);
+     chosenColumn = getHeader( headerTitle, &numOfHeaders);
+     if( chosenColumn != -1)
+       {
+	 printf("chosenColumn: %d\n",chosenColumn);
+       }
+     else
+       {
+	 printf("header: %s does not exist\n",headerTitle);
+	 return -1;
+       }
      
      char * inputStr;
      char ** headers = NULL;
