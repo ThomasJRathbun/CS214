@@ -4,13 +4,36 @@
 //#include "Sorter.h"
 #include <string.h>
 
-
+//Need to write comparators for string, longs,
 // ./sort -c movie_title
 typedef enum _bool{FALSE, TRUE}bool;
 
-int getHeader(char* headerTitle, int * numberOfHeaders)//take a head of list
+typedef struct _node
 {
-  printf("[getHeader] \n");
+  char ** data;
+  struct _node * next;
+}node;
+
+
+
+/*mergeSort
+
+ 
+void mergeSort( node * head, node * temp, int leftStart, int rightStart, int comparator)
+{
+  int index;
+  
+  
+}*/
+
+/*getHeader
+  getHeader grabs the headings from the csv file and places it in the head node of the linked list
+  It returns the column number that is being sorted and sets by reference the number of headings.
+
+ */
+int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a head of list
+{
+  printf("[ENTERING][getHeader] \n");
   char * line;
   char * orig = NULL;
   int chosenHeader =0;
@@ -83,10 +106,10 @@ int main(int argc, char *argv[])
      }
 
     
-     
+     node * head = NULL;
      int chosenColumn=0;
      int numOfHeaders=0;
-     chosenColumn = getHeader( headerTitle, &numOfHeaders);
+     chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
      if( chosenColumn != -1)
        {
 	 printf("chosenColumn: %d\n",chosenColumn);
