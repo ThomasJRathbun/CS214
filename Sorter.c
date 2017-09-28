@@ -18,13 +18,21 @@ typedef struct _node
 
 /*mergeSort
 
- 
-void mergeSort( node * head, node * temp, int leftStart, int rightStart, int comparator)
+ */
+void mergeSort( node * head, int left, int right, int comparator)
 {
-  int index;
+  if (left < right)
+    {
+      int mid = ((left+right)/2);
+
+      mergeSort( head, left, mid , comparator);
+      mergeSort( head, mid+1, right, comparator);
+
+      
+    }
+  return;
   
-  
-}*/
+}
 
 /*getHeader
   getHeader grabs the headings from the csv file and places it in the head node of the linked list
@@ -110,7 +118,7 @@ int main(int argc, char *argv[])
      int chosenColumn=0;
      int numOfHeaders=0;
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
-     if( chosenColumn != -1)
+     if(chosenColumn != -1)
        {
 	 printf("chosenColumn: %d\n",chosenColumn);
        }
@@ -119,7 +127,11 @@ int main(int argc, char *argv[])
 	 printf("header: %s does not exist\n",headerTitle);
 	 return -1;
        }
-     
+
+     return 0;
+ }
+
+     /*
      char * inputStr;
      char ** headers = NULL;
      char * secondRead = (char*) malloc(1000* sizeof(char));
@@ -161,3 +173,4 @@ int main(int argc, char *argv[])
 
      return 0;
  }
+*/
