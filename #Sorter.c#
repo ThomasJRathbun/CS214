@@ -4,8 +4,89 @@
 //#include "Sorter.h"
 #include <string.h>
 
-
+//Need to write comparators for string, longs,
 // ./sort -c movie_title
+typedef enum _bool{FALSE, TRUE}bool;
+
+typedef struct _node
+{
+  char ** data;
+  struct _node * next;
+}node;
+
+
+
+/*mergeSort
+
+ */
+void mergeSort( node * head, int left, int right, int comparator)
+{
+  if (left < right)
+    {
+      int mid = ((left+right)/2);
+
+      mergeSort( head, left, mid , comparator);
+      mergeSort( head, mid+1, right, comparator);
+
+      
+    }
+  return;
+  
+}
+
+/*getHeader
+  getHeader grabs the headings from the csv file and places it in the head node of the linked list
+  It returns the column number that is being sorted and sets by reference the number of headings.
+
+ */
+int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a head of list
+{
+  printf("[ENTERING][getHeader] \n");
+  char * line;
+  char * orig = NULL;
+  int chosenHeader =0;
+  bool found=FALSE;  
+  scanf("%ms", &line);
+  
+  orig = (char*) malloc( sizeof(char) * strlen(line)+1);
+  memcpy( orig, line, strlen(line)+1);
+
+    printf("[getHeader:Before While] \n");
+    printf("[getHeader:Before While]:headerTitle %s \n",headerTitle);
+  while( line != NULL )
+    {
+      if (*numberOfHeaders == 0)
+	{
+	  line = strtok( line , ",");
+	  printf("[getHeader:Inside While]: line:%s \n",line);
+	}
+      else
+	{
+	  line = strtok(NULL,",");
+	  printf("[getHeader:Inside While]: line:%s \n",line);
+	}
+      
+      if ( line == NULL)
+	{
+	  printf("[getHeader:Inside While]: BREAKING\n");
+	  break;
+	}
+      
+      if ( strcmp(headerTitle,line) == 0)
+	{
+	  chosenHeader = *numberOfHeaders;
+	  found = TRUE;
+	}
+      printf("[getHeader:Inside While]: increment: %d\n",*numberOfHeaders);
+      (*numberOfHeaders)++;
+      
+    }
+  
+  if ( found )
+    return chosenHeader;
+  else
+    return -1;
+}
 
 int main(int argc, char *argv[])
  {
@@ -13,7 +94,7 @@ int main(int argc, char *argv[])
    int options;
    int cFlag =0;
    char * headerTitle = "deault_header";
-   while( (options cat= getopt(argc, argv,"c:")) != -1 )
+   while( (options = getopt(argc, argv,"c:")) != -1 )
      {
        switch (options)
 	 {
@@ -32,13 +113,31 @@ int main(int argc, char *argv[])
        return -1;
      }
 
+    
+     node * head = NULL;
      int chosenColumn=0;
-     char * inputStr = (char*) malloc(10000 * sizeof(char));
+     int numOfHeaders=0;
+     chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
+     if(chosenColumn != -1)
+       {
+	 printf("chosenColumn: %d\n",chosenColumn);
+       }
+     else
+       {
+	 printf("header: %s does not exist\n",headerTitle);
+	 return -1;
+       }
+
+     return 0;
+ }
+
+     /*
+     char * inputStr;
      char ** headers = NULL;
      char * secondRead = (char*) malloc(1000* sizeof(char));
      int numHeaders = 1;
 
-     scanf( "%s", inputStr);
+     scanf( "%ms", &inputStr);
      memcpy( secondRead, inputStr, strlen(inputStr)+1);
      printf("%s \n",inputStr);
 
@@ -74,3 +173,4 @@ int main(int argc, char *argv[])
 
      return 0;
  }
+*/
