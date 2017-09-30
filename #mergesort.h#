@@ -13,7 +13,6 @@ typedef struct _node
 void merge( node* head, int left, int mid , int right, int index, int (*)(void*,void*) );
 void mergesort( node* head, int left, int right, int index,  int (*)(void*, void*));
 
-
 void printData( node*, int);
 void readData ( node*, int);
 

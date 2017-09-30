@@ -71,7 +71,7 @@ void printData( node * head, int _numHeaders)
 }
 
 
-void merge( node * head, int left, int mid, int right , int index , int (*comp)(void*,void*)){
+void merge( node * head, int left, int mid, int right , int index , int (*comp)(void*,void* )){
   printf( "[merge]:Initializing\n");
 
   int nodesInLeft  = mid - left + 1;
@@ -133,7 +133,7 @@ void merge( node * head, int left, int mid, int right , int index , int (*comp)(
       printf( "[merge]:EXIT \n");
     }
 }
-void mergesort( node * head, int left, int right, int index, int (*comp)(void *, void *))
+void mergesort( node * head, int left, int right, int index, int ((*comp)(void * , void * )))
 {
   printf( "[mergeSort]:Initialized \n");
   if ( left < right )
