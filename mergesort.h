@@ -1,7 +1,16 @@
 #ifndef MERGESORT_H
 #define MERGESORT_H
 
-void mergeSort( node * head, int left, int right, 
+
+typedef enum _bool{FALSE, TRUE}bool;
+
+typedef struct _node
+{
+  char ** data;
+  struct _node* next;
+}node;
+void printData( node* );
+void readData ( node*, int);
 
 
 

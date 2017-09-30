@@ -3,9 +3,11 @@
 #include <stdio.h>
 //#include "Sorter.h"
 #include <string.h>
-
+#include "mergesort.h"
 //Need to write comparators for string, longs,
 // ./sort -c movie_title
+
+/*
 typedef enum _bool{FALSE, TRUE}bool;
 
 typedef struct _node
@@ -14,25 +16,7 @@ typedef struct _node
   struct _node * next;
 }node;
 
-
-
-/*mergeSort
-
- */
-void mergeSort( node * head, int left, int right, int comparator)
-{
-  if (left < right)
-    {
-      int mid = ((left+right)/2);
-
-      mergeSort( head, left, mid , comparator);
-      mergeSort( head, mid+1, right, comparator);
-
-      
-    }
-  return;
-  
-}
+*/
 
 /*getHeader
   getHeader grabs the headings from the csv file and places it in the head node of the linked list
@@ -45,27 +29,28 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a he
   char * line;
   char * orig = NULL;
   int chosenHeader =0;
-  bool found=FALSE;  
+  bool found=FALSE;
   scanf("%ms", &line);
+  
+  printf("[getHeader]:gotline\n");
   
   orig = (char*) malloc( sizeof(char) * strlen(line)+1);
   memcpy( orig, line, strlen(line)+1);
 
-    printf("[getHeader:Before While] \n");
+  printf("[getHeader:Before While]:%s \n",line);
     printf("[getHeader:Before While]:headerTitle %s \n",headerTitle);
-  while( line != NULL )
+    while( line != NULL )
     {
-      if (*numberOfHeaders == 0)
+      printf("[getHeader:Inside While]: first Print %s\n",line);      
+      if(*numberOfHeaders ==0 )
 	{
-	  line = strtok( line , ",");
-	  printf("[getHeader:Inside While]: line:%s \n",line);
+	  line = strtok( line, ",");
 	}
       else
 	{
 	  line = strtok(NULL,",");
-	  printf("[getHeader:Inside While]: line:%s \n",line);
 	}
-      
+
       if ( line == NULL)
 	{
 	  printf("[getHeader:Inside While]: BREAKING\n");
@@ -114,10 +99,18 @@ int main(int argc, char *argv[])
      }
 
     
-     node * head = NULL;
+     node * head = (node*)malloc(sizeof(node));
      int chosenColumn=0;
      int numOfHeaders=0;
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
+
+     node * data = (node*)malloc(sizeof(node));
+        printf("[MAIN]:before Read\n");
+     readData( data, numOfHeaders);
+     printData( data );
+
+
+     
      if(chosenColumn != -1)
        {
 	 printf("chosenColumn: %d\n",chosenColumn);
