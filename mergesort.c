@@ -3,15 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-/*
-typedef enum _bool{FALSE, TRUE}bool;
 
-typedef struct _node
-{
-  char ** data;
-  struct * _node next;
-}node;
-*/
 //Read in data and insert nodes into Linked List
 void readData( node * head, int _numHeaders )
 {
@@ -60,57 +52,104 @@ void readData( node * head, int _numHeaders )
 }
 
 
-void printData( node * head )
+void printData( node * head, int _numHeaders)
 {
   node * curr = head;
   int i = 0;
   while( curr != NULL)
     {
-      for (i ; i< 4; i++)
+      for (i = 0 ; i< _numHeaders; i++)
 	{
-	  printf("%s\n",curr->data[i]);
+	  if ( (_numHeaders - i) == 1)
+	    printf("%s\n",curr->data[i]);
+	  else
+	    printf("%s,",curr->data[i]);
 	}
       curr = curr->next;
     }
+  return;
 }
-/*
-void merge( node * head, int left, int mid, int right ){
 
+
+void merge( node * head, int left, int mid, int right , int index , int (*comp)(void*,void*)){
+  printf( "[merge]:Initializing\n");
 
   int nodesInLeft  = mid - left + 1;
   int nodesInRight = right - mid;
+  int i =0, j = 0;
+  node * leftList  = head;
+  node * rightList = head;
 
   
-  node * lList = head;
-  node * rList = head;
-
-  while ( rList->next != NULL && nodesInRight <)
+  printf( "[merge]:Initialized\n");
+  for ( i; i<nodesInLeft ; i++)
     {
-      
-      
+      printf( "[merge]:Copying LeftList\n");
+      leftList = leftList->next;
     }
 
-  
-  //while
-  /*
-    comp(
-   
+  for ( i; i<nodesInRight ; i++)
+    {
+      printf( "[merge]:Copying righList\n");
+      rightList = rightList->next;
+    }
 
+  i = 0;
+  j = 0;
+  node * curr = head;
+  while ( i < nodesInLeft && j < nodesInRight )
+    {
+      printf( "[merge]::WHILE:checking data\n");
+      switch (comp(leftList->data[index],rightList->data[index]))
+	{
+	case -1:
+	  {
+	    printf( "[merge]:Case -1 \n");
+	    curr = leftList;
+	    curr = curr->next;
+	    leftList = leftList->next;
+	    i++;
+	    break;
+	  }
+	case 0:
+	  {
+	    printf( "[merge]:Case 0 \n");
+	    curr = leftList;
+	    curr = curr->next;
+	    leftList = leftList->next;
+	    i++;
+	    break;
+	  }
+	case 1:
+	  {
+	    printf( "[merge]:Case 1 \n");
+	    curr = rightList;
+	    curr = curr->next;
+	    leftList = rightList->next;
+	    j++;
+	    break;
+	  }
+	}
+      printf( "[merge]:EXIT \n");
+    }
 }
-
-void mergesort( node * head, int left, int right, int (*comp)(void *, void *))
+void mergesort( node * head, int left, int right, int index, int (*comp)(void *, void *))
 {
-
+  printf( "[mergeSort]:Initialized \n");
   if ( left < right )
     {
+      
       int mid = ( (left + right)/2);
-
-      mergesort( head, low, mid, comp);
-      mergesort( head, mid+1, right, comp);
-
-      //      merge();
+      printf( "[mergeSort]:mid Set \n");
+      mergesort( head, left, mid,index, comp);
+      printf( "[mergeSort]:Sorted Left \n");
+      mergesort( head, mid+1, right,index, comp);
+      printf( "[mergeSort]:Sorted Right \n");
+      merge( head, left, mid, right,index, comp);
+      printf( "[mergeSort]:Merged\n");
     }
   else
     return;
 }
-*/
+
+

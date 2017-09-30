@@ -66,6 +66,18 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a he
       (*numberOfHeaders)++;
       
     }
+    head->data = (char**)malloc(sizeof(char*) * *numberOfHeaders);
+    int i;
+    for (i =0; i < *numberOfHeaders; i++)
+      {
+	if( i == 0 )
+	  orig = strtok(orig, ",");
+	else
+	  orig = strtok(NULL, ",");
+	
+	head->data[i] = (char*)malloc(sizeof(char) * strlen(orig)+1);
+	head->data[i] = orig;
+      }
   
   if ( found )
     return chosenHeader;
@@ -87,7 +99,7 @@ int main(int argc, char *argv[])
 	   {
 	     headerTitle = optarg;
 	     cFlag = 1;
-	     break;
+	     break; 
 	   }
 	 }
      }
@@ -105,9 +117,11 @@ int main(int argc, char *argv[])
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
 
      node * data = (node*)malloc(sizeof(node));
-        printf("[MAIN]:before Read\n");
+     printf("[MAIN]:before Read\n");
      readData( data, numOfHeaders);
-     printData( data );
+
+     head->next = data;
+     printData( head, numOfHeaders);
 
 
      
