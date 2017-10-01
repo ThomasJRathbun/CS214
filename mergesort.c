@@ -73,6 +73,7 @@ void printData( node * head, int _numHeaders)
 
 node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*))
 {
+  printf( "[merge]:ENTERING \n");
   printf("[merge]:Is left or right NULL\n");
   if ( leftList == NULL)
     {
@@ -88,11 +89,12 @@ node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*)
   printf("[merge]:leftList:%s\n",leftList->data[index]);
   printf("[merge]:rightList:%s\n",rightList->data[index]);
   printf("[merge]:SWITCH. index:%d\n", index);
-  if( (*comp)(leftList->data[index],rightList->data[index] <= 1))
+  if( (*comp)(strcat(leftList->data[index],"\0"),strcat(rightList->data[index],"\0")) <= 1)
       {
 	printf( "[merge]:Less than 1 \n");
 	result = leftList;
-	result->next = merge(leftList->next,rightList,index,comp);
+	printf( "[merge]:Less than 1 \n");
+	result->next = merge(leftList->left,rightList,index,comp);
       }
       else
 	{
@@ -106,7 +108,9 @@ node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*)
 
 void subDivide( node * head, node** left, node** right )
 {
-
+  printf("[subDivide]:ENtering\n");
+  node * fast = head->next;
+  node * slow = head;
   if ( head == NULL || head->next == NULL)
     {
       *left  = head;
@@ -114,12 +118,11 @@ void subDivide( node * head, node** left, node** right )
     }
   else
     {
-      node * fast = head->next;
-      node * slow = head;
-      while( fast->next != NULL)
+
+      while( fast != NULL)
 	{
 	  fast = fast->next;
-	  if ( fast->next != NULL )
+	  if ( fast != NULL )
 	    {
 	      fast = fast->next;
 	      slow = slow->next;
@@ -128,6 +131,10 @@ void subDivide( node * head, node** left, node** right )
       *left  = head;
       *right = slow->next;
       slow->next = NULL;
+      printf("[subDivide]: left:\n");
+      printData(*left,4);
+      printf("[subDivide]: right:\n");
+      printData(*right,4);
     }
 }
 
@@ -150,7 +157,14 @@ void mergeSort( node ** head, int index,  int (*comp)(void*,void*))
     mergeSort(&right, index, comp);
 
   printf("[mergeSort]:Merge\n");
-    result = merge(&left,&right,index, comp);
+  
+  printf("[MERGESORT]: left:\n");
+  printData(left,4);
+  printf("[MERGESORT]: right:\n");
+  printData(right,4);
+
+  printf("[MERGESORT]:LEFTLIST:%s\n", left->data[index]);
+    result = merge(left,right,index, comp);
 }
 
 
