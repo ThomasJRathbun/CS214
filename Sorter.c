@@ -122,12 +122,7 @@ int main(int argc, char *argv[])
 
      head->next = data;
      printData( head, numOfHeaders);
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
-     
      if(chosenColumn != -1)
        {
 	 printf("chosenColumn: %d\n",chosenColumn);
@@ -137,15 +132,11 @@ int main(int argc, char *argv[])
 	 printf("header: %s does not exist\n",headerTitle);
 	 return -1;
        }
-<<<<<<< HEAD
      
      
      mergeSort( &data, chosenColumn ,strcmp);
      
      printData(data, numOfHeaders);
-=======
-
->>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
      return 0;
  }
 

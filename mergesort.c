@@ -70,7 +70,7 @@ void printData( node * head, int _numHeaders)
   return;
 }
 
-<<<<<<< HEAD
+
 node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*))
 {
   printf("[merge]:Is left or right NULL\n");
@@ -273,6 +273,3 @@ void mergesort( node * head, int left, int right, int index, int ((*comp)(void *
 
 <<<<<<< HEAD
 */
-=======
-
->>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
