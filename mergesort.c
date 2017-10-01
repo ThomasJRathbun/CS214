@@ -82,24 +82,25 @@ node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*)
     }
   if ( rightList == NULL)
     {
-      printf("[merge]:Right NULL return Right\n");
+      printf("[merge]:Right NULL return Left\n");
       return leftList;
     }
   node * result = NULL;
   printf("[merge]:leftList:%s\n",leftList->data[index]);
   printf("[merge]:rightList:%s\n",rightList->data[index]);
   printf("[merge]:SWITCH. index:%d\n", index);
-  if( (*comp)(strcat(leftList->data[index],"\0"),strcat(rightList->data[index],"\0")) <= 1)
+  if( (*comp)(strcat(leftList->data[index],"\0"),strcat(rightList->data[index],"\0")) <= 0)
       {
 	printf( "[merge]:Less than 1 \n");
 	result = leftList;
 	printf( "[merge]:Less than 1 \n");
-	result->next = merge(leftList->left,rightList,index,comp);
+	result->next = merge(leftList->next,rightList,index,comp);
       }
       else
 	{
 	  printf( "[merge]:More than 1 \n");
 	  result = rightList;
+	  printf("[merge]:leftList:%s\n",leftList->data[index]);
 	  result->next = merge(leftList,rightList->next,index,comp);
       	}
       
@@ -164,7 +165,7 @@ void mergeSort( node ** head, int index,  int (*comp)(void*,void*))
   printData(right,4);
 
   printf("[MERGESORT]:LEFTLIST:%s\n", left->data[index]);
-    result = merge(left,right,index, comp);
+  *head = merge(left,right,index, comp);
 }
 
 
