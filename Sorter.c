@@ -112,6 +112,7 @@ int main(int argc, char *argv[])
 
     
      node * head = (node*)malloc(sizeof(node));
+     head->next =NULL;
      int chosenColumn=0;
      int numOfHeaders=0;
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
@@ -120,7 +121,7 @@ int main(int argc, char *argv[])
      printf("[MAIN]:before Read\n");
      readData( data, numOfHeaders);
 
-     head->next = data;
+     //     head->next = data;
      printData( head, numOfHeaders);
 
      if(chosenColumn != -1)
@@ -133,10 +134,10 @@ int main(int argc, char *argv[])
 	 return -1;
        }
      
-     
+     printf("[MAIN]:Before Merge\n");
      mergeSort( &data, chosenColumn ,strcmp);
-     
-     printData(data, numOfHeaders);
+     head->next = data;
+     printData(head, numOfHeaders);
      return 0;
  }
 

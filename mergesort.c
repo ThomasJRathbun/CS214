@@ -8,10 +8,12 @@
 void readData( node * head, int _numHeaders )
 {
   printf("[readData]:Entered\n");
-  char* line;
+  char* line = NULL;
+  size_t size;
   node * newNode = head;
   printf("[readData]:Initialized\n");
-  while ( scanf("%ms", &line ) != EOF )
+  //  while ( scanf("%ms", &line ) != EOF )
+  while( getline(&line, &size,stdin) != -1)
   {
     printf("[readData]:Scanned\n");
     if ( newNode->next == NULL && newNode->data == NULL )
@@ -34,6 +36,7 @@ void readData( node * head, int _numHeaders )
       }
     
     newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
+    newNode->next = NULL;
     int i = 0;
     printf(" NUMBER OF HEADERS: %d", _numHeaders);
     for (i; i<_numHeaders; i++)
@@ -43,17 +46,24 @@ void readData( node * head, int _numHeaders )
 	  line = strtok( line, ",");
 	else
 	  line = strtok( NULL, ",");
+	if ( line == "" || line == NULL )
+	  {
+	    newNode->data[i] = "";
+	    continue;
+	  }
 	printf("line : %s\n",line);
 	newNode->data[i] = (char*)malloc(sizeof(char) * strlen(line)+1);
 	newNode->data[i] = line;
 	printf("[readData]:data at node[%d]= %s\n",i,newNode->data[i]);
       }
+    line = NULL;
   }
 }
 
 
 void printData( node * head, int _numHeaders)
 {
+  printf("[PRINTDATA]:Entering\n");
   node * curr = head;
   int i = 0;
   while( curr != NULL)
@@ -65,7 +75,7 @@ void printData( node * head, int _numHeaders)
 	  else
 	    printf("%s,",curr->data[i]);
 	}
-      curr = curr->next;
+	curr = curr->next;
     }
   return;
 }
@@ -132,10 +142,11 @@ void subDivide( node * head, node** left, node** right )
       *left  = head;
       *right = slow->next;
       slow->next = NULL;
+      /*
       printf("[subDivide]: left:\n");
       printData(*left,4);
       printf("[subDivide]: right:\n");
-      printData(*right,4);
+      printData(*right,4);*/
     }
 }
 
@@ -158,12 +169,12 @@ void mergeSort( node ** head, int index,  int (*comp)(void*,void*))
     mergeSort(&right, index, comp);
 
   printf("[mergeSort]:Merge\n");
-  
+  /*  
   printf("[MERGESORT]: left:\n");
   printData(left,4);
   printf("[MERGESORT]: right:\n");
   printData(right,4);
-
+  */
   printf("[MERGESORT]:LEFTLIST:%s\n", left->data[index]);
   *head = merge(left,right,index, comp);
 }
