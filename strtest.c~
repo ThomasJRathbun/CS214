@@ -1,0 +1,19 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+  char first[] = {'a', 'b', 'c', '\0'};
+  char second[] = {'c', 'd', 'e', 'f', '\0'};
+
+  if( strcmp(first,second) > 1)
+    printf("%s > %s\n",first,second);
+  else if ( strcmp(first,second) < 1)
+    printf("%s > %s\n",second,first);
+  else
+    printf("equal \n");
+  
+  return 0;
+}
