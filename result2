@@ -1,0 +1,3331 @@
+[ENTERING][getHeader] 
+[getHeader]:gotline
+[getHeader:Before While]:color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes 
+[getHeader:Before While]:headerTitle movie_title 
+[getHeader:Inside While]: first Print color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+[getHeader:Inside While]: increment: 0
+[getHeader:Inside While]: first Print color
+[getHeader:Inside While]: increment: 1
+[getHeader:Inside While]: first Print director_name
+[getHeader:Inside While]: increment: 2
+[getHeader:Inside While]: first Print num_critic_for_reviews
+[getHeader:Inside While]: increment: 3
+[getHeader:Inside While]: first Print duration
+[getHeader:Inside While]: increment: 4
+[getHeader:Inside While]: first Print director_facebook_likes
+[getHeader:Inside While]: increment: 5
+[getHeader:Inside While]: first Print actor_3_facebook_likes
+[getHeader:Inside While]: increment: 6
+[getHeader:Inside While]: first Print actor_2_name
+[getHeader:Inside While]: increment: 7
+[getHeader:Inside While]: first Print actor_1_facebook_likes
+[getHeader:Inside While]: increment: 8
+[getHeader:Inside While]: first Print gross
+[getHeader:Inside While]: increment: 9
+[getHeader:Inside While]: first Print genres
+[getHeader:Inside While]: increment: 10
+[getHeader:Inside While]: first Print actor_1_name
+[getHeader:Inside While]: increment: 11
+[getHeader:Inside While]: first Print movie_title
+[getHeader:Inside While]: increment: 12
+[getHeader:Inside While]: first Print num_voted_users
+[getHeader:Inside While]: increment: 13
+[getHeader:Inside While]: first Print cast_total_facebook_likes
+[getHeader:Inside While]: increment: 14
+[getHeader:Inside While]: first Print actor_3_name
+[getHeader:Inside While]: increment: 15
+[getHeader:Inside While]: first Print facenumber_in_poster
+[getHeader:Inside While]: increment: 16
+[getHeader:Inside While]: first Print plot_keywords
+[getHeader:Inside While]: increment: 17
+[getHeader:Inside While]: first Print movie_imdb_link
+[getHeader:Inside While]: increment: 18
+[getHeader:Inside While]: first Print num_user_for_reviews
+[getHeader:Inside While]: increment: 19
+[getHeader:Inside While]: first Print language
+[getHeader:Inside While]: increment: 20
+[getHeader:Inside While]: first Print country
+[getHeader:Inside While]: increment: 21
+[getHeader:Inside While]: first Print content_rating
+[getHeader:Inside While]: increment: 22
+[getHeader:Inside While]: first Print budget
+[getHeader:Inside While]: increment: 23
+[getHeader:Inside While]: first Print title_year
+[getHeader:Inside While]: increment: 24
+[getHeader:Inside While]: first Print actor_2_facebook_likes
+[getHeader:Inside While]: increment: 25
+[getHeader:Inside While]: first Print imdb_score
+[getHeader:Inside While]: increment: 26
+[getHeader:Inside While]: first Print aspect_ratio
+[getHeader:Inside While]: increment: 27
+[getHeader:Inside While]: first Print movie_facebook_likes
+[getHeader:Inside While]: BREAKING
+[MAIN]:before Read
+[readData]:Entered
+[readData]:Initialized
+[READDATA]::line:
+
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : 
+
+[readData]:data at node[0]= 
+
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+[READDATA]::line:
+Color,James Cameron,723,178,0,855,Joel David Moore,1000,760505847,Action|Adventure|Fantasy|Sci-Fi,CCH Pounder,Avatar ,886204,4834,Wes Studi,0,avatar|future|marine|native|paraplegic,http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1,3054,English,USA,PG-13,237000000,2009,936,7.9,1.78,33000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : James Cameron
+[readData]:data at node[1]= James Cameron
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 723
+[readData]:data at node[2]= 723
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 178
+[readData]:data at node[3]= 178
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 855
+[readData]:data at node[5]= 855
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Joel David Moore
+[readData]:data at node[6]= Joel David Moore
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 1000
+[readData]:data at node[7]= 1000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 760505847
+[readData]:data at node[8]= 760505847
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Fantasy|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Fantasy|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : CCH Pounder
+[readData]:data at node[10]= CCH Pounder
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Avatar 
+[readData]:data at node[11]= Avatar 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 886204
+[readData]:data at node[12]= 886204
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 4834
+[readData]:data at node[13]= 4834
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Wes Studi
+[readData]:data at node[14]= Wes Studi
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : avatar|future|marine|native|paraplegic
+[readData]:data at node[16]= avatar|future|marine|native|paraplegic
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 3054
+[readData]:data at node[18]= 3054
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 237000000
+[readData]:data at node[22]= 237000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2009
+[readData]:data at node[23]= 2009
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 936
+[readData]:data at node[24]= 936
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.9
+[readData]:data at node[25]= 7.9
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 1.78
+[readData]:data at node[26]= 1.78
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 33000
+
+[readData]:data at node[27]= 33000
+
+[READDATA]::line:
+Color,Gore Verbinski,302,169,563,1000,Orlando Bloom,40000,309404152,Action|Adventure|Fantasy,Johnny Depp,Pirates of the Caribbean: At World's End ,471220,48350,Jack Davenport,0,goddess|marriage ceremony|marriage proposal|pirate|singapore,http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1,1238,English,USA,PG-13,300000000,2007,5000,7.1,2.35,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Gore Verbinski
+[readData]:data at node[1]= Gore Verbinski
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 302
+[readData]:data at node[2]= 302
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 169
+[readData]:data at node[3]= 169
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 563
+[readData]:data at node[4]= 563
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 1000
+[readData]:data at node[5]= 1000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Orlando Bloom
+[readData]:data at node[6]= Orlando Bloom
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 40000
+[readData]:data at node[7]= 40000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 309404152
+[readData]:data at node[8]= 309404152
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Fantasy
+[readData]:data at node[9]= Action|Adventure|Fantasy
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Johnny Depp
+[readData]:data at node[10]= Johnny Depp
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Pirates of the Caribbean: At World's End 
+[readData]:data at node[11]= Pirates of the Caribbean: At World's End 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 471220
+[readData]:data at node[12]= 471220
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 48350
+[readData]:data at node[13]= 48350
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Jack Davenport
+[readData]:data at node[14]= Jack Davenport
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : goddess|marriage ceremony|marriage proposal|pirate|singapore
+[readData]:data at node[16]= goddess|marriage ceremony|marriage proposal|pirate|singapore
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1238
+[readData]:data at node[18]= 1238
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 300000000
+[readData]:data at node[22]= 300000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2007
+[readData]:data at node[23]= 2007
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 5000
+[readData]:data at node[24]= 5000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.1
+[readData]:data at node[25]= 7.1
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 0
+
+[readData]:data at node[27]= 0
+
+[READDATA]::line:
+Color,Sam Mendes,602,148,0,161,Rory Kinnear,11000,200074175,Action|Adventure|Thriller,Christoph Waltz,Spectre ,275868,11700,Stephanie Sigman,1,bomb|espionage|sequel|spy|terrorist,http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1,994,English,UK,PG-13,245000000,2015,393,6.8,2.35,85000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Sam Mendes
+[readData]:data at node[1]= Sam Mendes
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 602
+[readData]:data at node[2]= 602
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 148
+[readData]:data at node[3]= 148
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 161
+[readData]:data at node[5]= 161
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Rory Kinnear
+[readData]:data at node[6]= Rory Kinnear
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 11000
+[readData]:data at node[7]= 11000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 200074175
+[readData]:data at node[8]= 200074175
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Thriller
+[readData]:data at node[9]= Action|Adventure|Thriller
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Christoph Waltz
+[readData]:data at node[10]= Christoph Waltz
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Spectre 
+[readData]:data at node[11]= Spectre 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 275868
+[readData]:data at node[12]= 275868
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 11700
+[readData]:data at node[13]= 11700
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Stephanie Sigman
+[readData]:data at node[14]= Stephanie Sigman
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : bomb|espionage|sequel|spy|terrorist
+[readData]:data at node[16]= bomb|espionage|sequel|spy|terrorist
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 994
+[readData]:data at node[18]= 994
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : UK
+[readData]:data at node[20]= UK
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 245000000
+[readData]:data at node[22]= 245000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2015
+[readData]:data at node[23]= 2015
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 393
+[readData]:data at node[24]= 393
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.8
+[readData]:data at node[25]= 6.8
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 85000
+
+[readData]:data at node[27]= 85000
+
+[READDATA]::line:
+Color,Christopher Nolan,813,164,22000,23000,Christian Bale,27000,448130642,Action|Thriller,Tom Hardy,The Dark Knight Rises ,1144337,106759,Joseph Gordon-Levitt,0,deception|imprisonment|lawlessness|police officer|terrorist plot,http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1,2701,English,USA,PG-13,250000000,2012,23000,8.5,2.35,164000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Christopher Nolan
+[readData]:data at node[1]= Christopher Nolan
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 813
+[readData]:data at node[2]= 813
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 164
+[readData]:data at node[3]= 164
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 22000
+[readData]:data at node[4]= 22000
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 23000
+[readData]:data at node[5]= 23000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Christian Bale
+[readData]:data at node[6]= Christian Bale
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 27000
+[readData]:data at node[7]= 27000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 448130642
+[readData]:data at node[8]= 448130642
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Thriller
+[readData]:data at node[9]= Action|Thriller
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Tom Hardy
+[readData]:data at node[10]= Tom Hardy
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : The Dark Knight Rises 
+[readData]:data at node[11]= The Dark Knight Rises 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 1144337
+[readData]:data at node[12]= 1144337
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 106759
+[readData]:data at node[13]= 106759
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Joseph Gordon-Levitt
+[readData]:data at node[14]= Joseph Gordon-Levitt
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : deception|imprisonment|lawlessness|police officer|terrorist plot
+[readData]:data at node[16]= deception|imprisonment|lawlessness|police officer|terrorist plot
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 2701
+[readData]:data at node[18]= 2701
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 250000000
+[readData]:data at node[22]= 250000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2012
+[readData]:data at node[23]= 2012
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 23000
+[readData]:data at node[24]= 23000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 8.5
+[readData]:data at node[25]= 8.5
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 164000
+
+[readData]:data at node[27]= 164000
+
+[READDATA]::line:
+,Doug Walker,,,131,,Rob Walker,131,,Documentary,Doug Walker,Star Wars: Episode VII - The Force Awakens             ,8,143,,0,,http://www.imdb.com/title/tt5289954/?ref_=fn_tt_tt_1,,,,,,,12,7.1,,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Doug Walker
+[readData]:data at node[0]= Doug Walker
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : 131
+[readData]:data at node[1]= 131
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : Rob Walker
+[readData]:data at node[2]= Rob Walker
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 131
+[readData]:data at node[3]= 131
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : Documentary
+[readData]:data at node[4]= Documentary
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : Doug Walker
+[readData]:data at node[5]= Doug Walker
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Star Wars: Episode VII - The Force Awakens             
+[readData]:data at node[6]= Star Wars: Episode VII - The Force Awakens             
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 8
+[readData]:data at node[7]= 8
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 143
+[readData]:data at node[8]= 143
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : 0
+[readData]:data at node[9]= 0
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt5289954/?ref_=fn_tt_tt_1
+[readData]:data at node[10]= http://www.imdb.com/title/tt5289954/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : 12
+[readData]:data at node[11]= 12
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 7.1
+[readData]:data at node[12]= 7.1
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 0
+
+[readData]:data at node[13]= 0
+
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+[READDATA]::line:
+Color,Andrew Stanton,462,132,475,530,Samantha Morton,640,73058679,Action|Adventure|Sci-Fi,Daryl Sabara,John Carter ,212204,1873,Polly Walker,1,alien|american civil war|male nipple|mars|princess,http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1,738,English,USA,PG-13,263700000,2012,632,6.6,2.35,24000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Andrew Stanton
+[readData]:data at node[1]= Andrew Stanton
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 462
+[readData]:data at node[2]= 462
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 132
+[readData]:data at node[3]= 132
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 475
+[readData]:data at node[4]= 475
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 530
+[readData]:data at node[5]= 530
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Samantha Morton
+[readData]:data at node[6]= Samantha Morton
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 640
+[readData]:data at node[7]= 640
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 73058679
+[readData]:data at node[8]= 73058679
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Daryl Sabara
+[readData]:data at node[10]= Daryl Sabara
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : John Carter 
+[readData]:data at node[11]= John Carter 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 212204
+[readData]:data at node[12]= 212204
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 1873
+[readData]:data at node[13]= 1873
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Polly Walker
+[readData]:data at node[14]= Polly Walker
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : alien|american civil war|male nipple|mars|princess
+[readData]:data at node[16]= alien|american civil war|male nipple|mars|princess
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 738
+[readData]:data at node[18]= 738
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 263700000
+[readData]:data at node[22]= 263700000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2012
+[readData]:data at node[23]= 2012
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 632
+[readData]:data at node[24]= 632
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.6
+[readData]:data at node[25]= 6.6
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 24000
+
+[readData]:data at node[27]= 24000
+
+[READDATA]::line:
+Color,Sam Raimi,392,156,0,4000,James Franco,24000,336530303,Action|Adventure|Romance,J.K. Simmons,Spider-Man 3 ,383056,46055,Kirsten Dunst,0,sandman|spider man|symbiote|venom|villain,http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1,1902,English,USA,PG-13,258000000,2007,11000,6.2,2.35,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Sam Raimi
+[readData]:data at node[1]= Sam Raimi
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 392
+[readData]:data at node[2]= 392
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 156
+[readData]:data at node[3]= 156
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 4000
+[readData]:data at node[5]= 4000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : James Franco
+[readData]:data at node[6]= James Franco
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 24000
+[readData]:data at node[7]= 24000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 336530303
+[readData]:data at node[8]= 336530303
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Romance
+[readData]:data at node[9]= Action|Adventure|Romance
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : J.K. Simmons
+[readData]:data at node[10]= J.K. Simmons
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Spider-Man 3 
+[readData]:data at node[11]= Spider-Man 3 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 383056
+[readData]:data at node[12]= 383056
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 46055
+[readData]:data at node[13]= 46055
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Kirsten Dunst
+[readData]:data at node[14]= Kirsten Dunst
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : sandman|spider man|symbiote|venom|villain
+[readData]:data at node[16]= sandman|spider man|symbiote|venom|villain
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1902
+[readData]:data at node[18]= 1902
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 258000000
+[readData]:data at node[22]= 258000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2007
+[readData]:data at node[23]= 2007
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 11000
+[readData]:data at node[24]= 11000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.2
+[readData]:data at node[25]= 6.2
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 0
+
+[readData]:data at node[27]= 0
+
+[READDATA]::line:
+Color,Nathan Greno,324,100,15,284,Donna Murphy,799,200807262,Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance,Brad Garrett,Tangled ,294810,2036,M.C. Gainey,1,17th century|based on fairy tale|disney|flower|tower,http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1,387,English,USA,PG,260000000,2010,553,7.8,1.85,29000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Nathan Greno
+[readData]:data at node[1]= Nathan Greno
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 324
+[readData]:data at node[2]= 324
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 100
+[readData]:data at node[3]= 100
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 15
+[readData]:data at node[4]= 15
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 284
+[readData]:data at node[5]= 284
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Donna Murphy
+[readData]:data at node[6]= Donna Murphy
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 799
+[readData]:data at node[7]= 799
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 200807262
+[readData]:data at node[8]= 200807262
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance
+[readData]:data at node[9]= Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Brad Garrett
+[readData]:data at node[10]= Brad Garrett
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Tangled 
+[readData]:data at node[11]= Tangled 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 294810
+[readData]:data at node[12]= 294810
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 2036
+[readData]:data at node[13]= 2036
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : M.C. Gainey
+[readData]:data at node[14]= M.C. Gainey
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : 17th century|based on fairy tale|disney|flower|tower
+[readData]:data at node[16]= 17th century|based on fairy tale|disney|flower|tower
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 387
+[readData]:data at node[18]= 387
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG
+[readData]:data at node[21]= PG
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 260000000
+[readData]:data at node[22]= 260000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2010
+[readData]:data at node[23]= 2010
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 553
+[readData]:data at node[24]= 553
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.8
+[readData]:data at node[25]= 7.8
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 1.85
+[readData]:data at node[26]= 1.85
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 29000
+
+[readData]:data at node[27]= 29000
+
+[READDATA]::line:
+Color,Joss Whedon,635,141,0,19000,Robert Downey Jr.,26000,458991599,Action|Adventure|Sci-Fi,Chris Hemsworth,Avengers: Age of Ultron ,462669,92000,Scarlett Johansson,4,artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero,http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1,1117,English,USA,PG-13,250000000,2015,21000,7.5,2.35,118000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Joss Whedon
+[readData]:data at node[1]= Joss Whedon
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 635
+[readData]:data at node[2]= 635
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 141
+[readData]:data at node[3]= 141
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 19000
+[readData]:data at node[5]= 19000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Robert Downey Jr.
+[readData]:data at node[6]= Robert Downey Jr.
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 26000
+[readData]:data at node[7]= 26000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 458991599
+[readData]:data at node[8]= 458991599
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Chris Hemsworth
+[readData]:data at node[10]= Chris Hemsworth
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Avengers: Age of Ultron 
+[readData]:data at node[11]= Avengers: Age of Ultron 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 462669
+[readData]:data at node[12]= 462669
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 92000
+[readData]:data at node[13]= 92000
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Scarlett Johansson
+[readData]:data at node[14]= Scarlett Johansson
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 4
+[readData]:data at node[15]= 4
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero
+[readData]:data at node[16]= artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1117
+[readData]:data at node[18]= 1117
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 250000000
+[readData]:data at node[22]= 250000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2015
+[readData]:data at node[23]= 2015
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 21000
+[readData]:data at node[24]= 21000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.5
+[readData]:data at node[25]= 7.5
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 118000
+
+[readData]:data at node[27]= 118000
+
+[PRINTDATA]:Entering
+color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+chosenColumn: 11
+[MAIN]:Before Merge
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:
+[merge]:rightList:Avatar 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:
+[merge]:rightList:Pirates of the Caribbean: At World's End 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Pirates of the Caribbean: At World's End 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Spectre 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spectre 
+[merge]:rightList:The Dark Knight Rises 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:
+[merge]:rightList:Spectre 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Spectre 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Spectre 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:12
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:12
+[merge]:rightList:John Carter 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:12
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:12
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Tangled 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Tangled 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Tangled 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Right NULL return Left
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:12
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:12
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:John Carter 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spider-Man 3 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:
+[merge]:rightList:12
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:12
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Avatar 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:John Carter 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spectre 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:The Dark Knight Rises 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:The Dark Knight Rises 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Right NULL return Left
+[PRINTDATA]:Entering
+color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Doug Walker,131,Rob Walker,131,Documentary,Doug Walker,Star Wars: Episode VII - The Force Awakens             ,8,143,0,http://www.imdb.com/title/tt5289954/?ref_=fn_tt_tt_1,12,7.1,0
+,,,,,,,,,,,,,,
+Color,James Cameron,723,178,0,855,Joel David Moore,1000,760505847,Action|Adventure|Fantasy|Sci-Fi,CCH Pounder,Avatar ,886204,4834,Wes Studi,0,avatar|future|marine|native|paraplegic,http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1,3054,English,USA,PG-13,237000000,2009,936,7.9,1.78,33000
+
+Color,Joss Whedon,635,141,0,19000,Robert Downey Jr.,26000,458991599,Action|Adventure|Sci-Fi,Chris Hemsworth,Avengers: Age of Ultron ,462669,92000,Scarlett Johansson,4,artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero,http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1,1117,English,USA,PG-13,250000000,2015,21000,7.5,2.35,118000
+
+Color,Andrew Stanton,462,132,475,530,Samantha Morton,640,73058679,Action|Adventure|Sci-Fi,Daryl Sabara,John Carter ,212204,1873,Polly Walker,1,alien|american civil war|male nipple|mars|princess,http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1,738,English,USA,PG-13,263700000,2012,632,6.6,2.35,24000
+
+Color,Gore Verbinski,302,169,563,1000,Orlando Bloom,40000,309404152,Action|Adventure|Fantasy,Johnny Depp,Pirates of the Caribbean: At World's End ,471220,48350,Jack Davenport,0,goddess|marriage ceremony|marriage proposal|pirate|singapore,http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1,1238,English,USA,PG-13,300000000,2007,5000,7.1,2.35,0
+
+Color,Sam Mendes,602,148,0,161,Rory Kinnear,11000,200074175,Action|Adventure|Thriller,Christoph Waltz,Spectre ,275868,11700,Stephanie Sigman,1,bomb|espionage|sequel|spy|terrorist,http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1,994,English,UK,PG-13,245000000,2015,393,6.8,2.35,85000
+
+Color,Sam Raimi,392,156,0,4000,James Franco,24000,336530303,Action|Adventure|Romance,J.K. Simmons,Spider-Man 3 ,383056,46055,Kirsten Dunst,0,sandman|spider man|symbiote|venom|villain,http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1,1902,English,USA,PG-13,258000000,2007,11000,6.2,2.35,0
+
+Color,Nathan Greno,324,100,15,284,Donna Murphy,799,200807262,Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance,Brad Garrett,Tangled ,294810,2036,M.C. Gainey,1,17th century|based on fairy tale|disney|flower|tower,http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1,387,English,USA,PG,260000000,2010,553,7.8,1.85,29000
+
+Color,Christopher Nolan,813,164,22000,23000,Christian Bale,27000,448130642,Action|Thriller,Tom Hardy,The Dark Knight Rises ,1144337,106759,Joseph Gordon-Levitt,0,deception|imprisonment|lawlessness|police officer|terrorist plot,http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1,2701,English,USA,PG-13,250000000,2012,23000,8.5,2.35,164000
+
+[ENTERING][getHeader] 
+[getHeader]:gotline
+[getHeader:Before While]:color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes 
+[getHeader:Before While]:headerTitle movie_title 
+[getHeader:Inside While]: first Print color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+[getHeader:Inside While]: increment: 0
+[getHeader:Inside While]: first Print color
+[getHeader:Inside While]: increment: 1
+[getHeader:Inside While]: first Print director_name
+[getHeader:Inside While]: increment: 2
+[getHeader:Inside While]: first Print num_critic_for_reviews
+[getHeader:Inside While]: increment: 3
+[getHeader:Inside While]: first Print duration
+[getHeader:Inside While]: increment: 4
+[getHeader:Inside While]: first Print director_facebook_likes
+[getHeader:Inside While]: increment: 5
+[getHeader:Inside While]: first Print actor_3_facebook_likes
+[getHeader:Inside While]: increment: 6
+[getHeader:Inside While]: first Print actor_2_name
+[getHeader:Inside While]: increment: 7
+[getHeader:Inside While]: first Print actor_1_facebook_likes
+[getHeader:Inside While]: increment: 8
+[getHeader:Inside While]: first Print gross
+[getHeader:Inside While]: increment: 9
+[getHeader:Inside While]: first Print genres
+[getHeader:Inside While]: increment: 10
+[getHeader:Inside While]: first Print actor_1_name
+[getHeader:Inside While]: increment: 11
+[getHeader:Inside While]: first Print movie_title
+[getHeader:Inside While]: increment: 12
+[getHeader:Inside While]: first Print num_voted_users
+[getHeader:Inside While]: increment: 13
+[getHeader:Inside While]: first Print cast_total_facebook_likes
+[getHeader:Inside While]: increment: 14
+[getHeader:Inside While]: first Print actor_3_name
+[getHeader:Inside While]: increment: 15
+[getHeader:Inside While]: first Print facenumber_in_poster
+[getHeader:Inside While]: increment: 16
+[getHeader:Inside While]: first Print plot_keywords
+[getHeader:Inside While]: increment: 17
+[getHeader:Inside While]: first Print movie_imdb_link
+[getHeader:Inside While]: increment: 18
+[getHeader:Inside While]: first Print num_user_for_reviews
+[getHeader:Inside While]: increment: 19
+[getHeader:Inside While]: first Print language
+[getHeader:Inside While]: increment: 20
+[getHeader:Inside While]: first Print country
+[getHeader:Inside While]: increment: 21
+[getHeader:Inside While]: first Print content_rating
+[getHeader:Inside While]: increment: 22
+[getHeader:Inside While]: first Print budget
+[getHeader:Inside While]: increment: 23
+[getHeader:Inside While]: first Print title_year
+[getHeader:Inside While]: increment: 24
+[getHeader:Inside While]: first Print actor_2_facebook_likes
+[getHeader:Inside While]: increment: 25
+[getHeader:Inside While]: first Print imdb_score
+[getHeader:Inside While]: increment: 26
+[getHeader:Inside While]: first Print aspect_ratio
+[getHeader:Inside While]: increment: 27
+[getHeader:Inside While]: first Print movie_facebook_likes
+[getHeader:Inside While]: BREAKING
+[MAIN]:before Read
+[readData]:Entered
+[readData]:Initialized
+[READDATA]::line:
+
+
+[readData]:Scanned
+[READDATA]::line:
+Color,James Cameron,723,178,0,855,Joel David Moore,1000,760505847,Action|Adventure|Fantasy|Sci-Fi,CCH Pounder,Avatar ,886204,4834,Wes Studi,0,avatar|future|marine|native|paraplegic,http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1,3054,English,USA,PG-13,237000000,2009,936,7.9,1.78,33000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : James Cameron
+[readData]:data at node[1]= James Cameron
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 723
+[readData]:data at node[2]= 723
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 178
+[readData]:data at node[3]= 178
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 855
+[readData]:data at node[5]= 855
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Joel David Moore
+[readData]:data at node[6]= Joel David Moore
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 1000
+[readData]:data at node[7]= 1000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 760505847
+[readData]:data at node[8]= 760505847
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Fantasy|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Fantasy|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : CCH Pounder
+[readData]:data at node[10]= CCH Pounder
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Avatar 
+[readData]:data at node[11]= Avatar 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 886204
+[readData]:data at node[12]= 886204
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 4834
+[readData]:data at node[13]= 4834
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Wes Studi
+[readData]:data at node[14]= Wes Studi
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : avatar|future|marine|native|paraplegic
+[readData]:data at node[16]= avatar|future|marine|native|paraplegic
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 3054
+[readData]:data at node[18]= 3054
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 237000000
+[readData]:data at node[22]= 237000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2009
+[readData]:data at node[23]= 2009
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 936
+[readData]:data at node[24]= 936
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.9
+[readData]:data at node[25]= 7.9
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 1.78
+[readData]:data at node[26]= 1.78
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 33000
+
+[readData]:data at node[27]= 33000
+
+[READDATA]::line:
+Color,Gore Verbinski,302,169,563,1000,Orlando Bloom,40000,309404152,Action|Adventure|Fantasy,Johnny Depp,Pirates of the Caribbean: At World's End ,471220,48350,Jack Davenport,0,goddess|marriage ceremony|marriage proposal|pirate|singapore,http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1,1238,English,USA,PG-13,300000000,2007,5000,7.1,2.35,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Gore Verbinski
+[readData]:data at node[1]= Gore Verbinski
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 302
+[readData]:data at node[2]= 302
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 169
+[readData]:data at node[3]= 169
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 563
+[readData]:data at node[4]= 563
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 1000
+[readData]:data at node[5]= 1000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Orlando Bloom
+[readData]:data at node[6]= Orlando Bloom
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 40000
+[readData]:data at node[7]= 40000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 309404152
+[readData]:data at node[8]= 309404152
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Fantasy
+[readData]:data at node[9]= Action|Adventure|Fantasy
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Johnny Depp
+[readData]:data at node[10]= Johnny Depp
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Pirates of the Caribbean: At World's End 
+[readData]:data at node[11]= Pirates of the Caribbean: At World's End 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 471220
+[readData]:data at node[12]= 471220
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 48350
+[readData]:data at node[13]= 48350
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Jack Davenport
+[readData]:data at node[14]= Jack Davenport
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : goddess|marriage ceremony|marriage proposal|pirate|singapore
+[readData]:data at node[16]= goddess|marriage ceremony|marriage proposal|pirate|singapore
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1238
+[readData]:data at node[18]= 1238
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 300000000
+[readData]:data at node[22]= 300000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2007
+[readData]:data at node[23]= 2007
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 5000
+[readData]:data at node[24]= 5000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.1
+[readData]:data at node[25]= 7.1
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 0
+
+[readData]:data at node[27]= 0
+
+[READDATA]::line:
+Color,Sam Mendes,602,148,0,161,Rory Kinnear,11000,200074175,Action|Adventure|Thriller,Christoph Waltz,Spectre ,275868,11700,Stephanie Sigman,1,bomb|espionage|sequel|spy|terrorist,http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1,994,English,UK,PG-13,245000000,2015,393,6.8,2.35,85000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Sam Mendes
+[readData]:data at node[1]= Sam Mendes
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 602
+[readData]:data at node[2]= 602
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 148
+[readData]:data at node[3]= 148
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 161
+[readData]:data at node[5]= 161
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Rory Kinnear
+[readData]:data at node[6]= Rory Kinnear
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 11000
+[readData]:data at node[7]= 11000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 200074175
+[readData]:data at node[8]= 200074175
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Thriller
+[readData]:data at node[9]= Action|Adventure|Thriller
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Christoph Waltz
+[readData]:data at node[10]= Christoph Waltz
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Spectre 
+[readData]:data at node[11]= Spectre 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 275868
+[readData]:data at node[12]= 275868
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 11700
+[readData]:data at node[13]= 11700
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Stephanie Sigman
+[readData]:data at node[14]= Stephanie Sigman
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : bomb|espionage|sequel|spy|terrorist
+[readData]:data at node[16]= bomb|espionage|sequel|spy|terrorist
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 994
+[readData]:data at node[18]= 994
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : UK
+[readData]:data at node[20]= UK
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 245000000
+[readData]:data at node[22]= 245000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2015
+[readData]:data at node[23]= 2015
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 393
+[readData]:data at node[24]= 393
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.8
+[readData]:data at node[25]= 6.8
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 85000
+
+[readData]:data at node[27]= 85000
+
+[READDATA]::line:
+Color,Christopher Nolan,813,164,22000,23000,Christian Bale,27000,448130642,Action|Thriller,Tom Hardy,The Dark Knight Rises ,1144337,106759,Joseph Gordon-Levitt,0,deception|imprisonment|lawlessness|police officer|terrorist plot,http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1,2701,English,USA,PG-13,250000000,2012,23000,8.5,2.35,164000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Christopher Nolan
+[readData]:data at node[1]= Christopher Nolan
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 813
+[readData]:data at node[2]= 813
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 164
+[readData]:data at node[3]= 164
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 22000
+[readData]:data at node[4]= 22000
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 23000
+[readData]:data at node[5]= 23000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Christian Bale
+[readData]:data at node[6]= Christian Bale
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 27000
+[readData]:data at node[7]= 27000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 448130642
+[readData]:data at node[8]= 448130642
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Thriller
+[readData]:data at node[9]= Action|Thriller
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Tom Hardy
+[readData]:data at node[10]= Tom Hardy
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : The Dark Knight Rises 
+[readData]:data at node[11]= The Dark Knight Rises 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 1144337
+[readData]:data at node[12]= 1144337
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 106759
+[readData]:data at node[13]= 106759
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Joseph Gordon-Levitt
+[readData]:data at node[14]= Joseph Gordon-Levitt
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : deception|imprisonment|lawlessness|police officer|terrorist plot
+[readData]:data at node[16]= deception|imprisonment|lawlessness|police officer|terrorist plot
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 2701
+[readData]:data at node[18]= 2701
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 250000000
+[readData]:data at node[22]= 250000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2012
+[readData]:data at node[23]= 2012
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 23000
+[readData]:data at node[24]= 23000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 8.5
+[readData]:data at node[25]= 8.5
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 164000
+
+[readData]:data at node[27]= 164000
+
+[READDATA]::line:
+,Doug Walker,,,131,,Rob Walker,131,,Documentary,Doug Walker,Star Wars: Episode VII - The Force Awakens             ,8,143,,0,,http://www.imdb.com/title/tt5289954/?ref_=fn_tt_tt_1,,,,,,,12,7.1,,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+ NUMBER OF HEADERS: 28
+i:1
+ NUMBER OF HEADERS: 28
+i:2
+ NUMBER OF HEADERS: 28
+i:3
+ NUMBER OF HEADERS: 28
+i:4
+ NUMBER OF HEADERS: 28
+i:5
+ NUMBER OF HEADERS: 28
+i:6
+ NUMBER OF HEADERS: 28
+i:7
+ NUMBER OF HEADERS: 28
+i:8
+ NUMBER OF HEADERS: 28
+i:9
+ NUMBER OF HEADERS: 28
+i:10
+ NUMBER OF HEADERS: 28
+i:11
+ NUMBER OF HEADERS: 28
+i:12
+ NUMBER OF HEADERS: 28
+i:13
+ NUMBER OF HEADERS: 28
+i:14
+ NUMBER OF HEADERS: 28
+i:15
+ NUMBER OF HEADERS: 28
+i:16
+ NUMBER OF HEADERS: 28
+i:17
+ NUMBER OF HEADERS: 28
+i:18
+ NUMBER OF HEADERS: 28
+i:19
+ NUMBER OF HEADERS: 28
+i:20
+ NUMBER OF HEADERS: 28
+i:21
+ NUMBER OF HEADERS: 28
+i:22
+ NUMBER OF HEADERS: 28
+i:23
+ NUMBER OF HEADERS: 28
+i:24
+ NUMBER OF HEADERS: 28
+i:25
+ NUMBER OF HEADERS: 28
+i:26
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]::line:
+Color,Andrew Stanton,462,132,475,530,Samantha Morton,640,73058679,Action|Adventure|Sci-Fi,Daryl Sabara,John Carter ,212204,1873,Polly Walker,1,alien|american civil war|male nipple|mars|princess,http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1,738,English,USA,PG-13,263700000,2012,632,6.6,2.35,24000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Andrew Stanton
+[readData]:data at node[1]= Andrew Stanton
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 462
+[readData]:data at node[2]= 462
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 132
+[readData]:data at node[3]= 132
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 475
+[readData]:data at node[4]= 475
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 530
+[readData]:data at node[5]= 530
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Samantha Morton
+[readData]:data at node[6]= Samantha Morton
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 640
+[readData]:data at node[7]= 640
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 73058679
+[readData]:data at node[8]= 73058679
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Daryl Sabara
+[readData]:data at node[10]= Daryl Sabara
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : John Carter 
+[readData]:data at node[11]= John Carter 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 212204
+[readData]:data at node[12]= 212204
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 1873
+[readData]:data at node[13]= 1873
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Polly Walker
+[readData]:data at node[14]= Polly Walker
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : alien|american civil war|male nipple|mars|princess
+[readData]:data at node[16]= alien|american civil war|male nipple|mars|princess
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 738
+[readData]:data at node[18]= 738
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 263700000
+[readData]:data at node[22]= 263700000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2012
+[readData]:data at node[23]= 2012
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 632
+[readData]:data at node[24]= 632
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.6
+[readData]:data at node[25]= 6.6
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 24000
+
+[readData]:data at node[27]= 24000
+
+[READDATA]::line:
+Color,Sam Raimi,392,156,0,4000,James Franco,24000,336530303,Action|Adventure|Romance,J.K. Simmons,Spider-Man 3 ,383056,46055,Kirsten Dunst,0,sandman|spider man|symbiote|venom|villain,http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1,1902,English,USA,PG-13,258000000,2007,11000,6.2,2.35,0
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Sam Raimi
+[readData]:data at node[1]= Sam Raimi
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 392
+[readData]:data at node[2]= 392
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 156
+[readData]:data at node[3]= 156
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 4000
+[readData]:data at node[5]= 4000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : James Franco
+[readData]:data at node[6]= James Franco
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 24000
+[readData]:data at node[7]= 24000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 336530303
+[readData]:data at node[8]= 336530303
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Romance
+[readData]:data at node[9]= Action|Adventure|Romance
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : J.K. Simmons
+[readData]:data at node[10]= J.K. Simmons
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Spider-Man 3 
+[readData]:data at node[11]= Spider-Man 3 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 383056
+[readData]:data at node[12]= 383056
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 46055
+[readData]:data at node[13]= 46055
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Kirsten Dunst
+[readData]:data at node[14]= Kirsten Dunst
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 0
+[readData]:data at node[15]= 0
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : sandman|spider man|symbiote|venom|villain
+[readData]:data at node[16]= sandman|spider man|symbiote|venom|villain
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1902
+[readData]:data at node[18]= 1902
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 258000000
+[readData]:data at node[22]= 258000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2007
+[readData]:data at node[23]= 2007
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 11000
+[readData]:data at node[24]= 11000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 6.2
+[readData]:data at node[25]= 6.2
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 0
+
+[readData]:data at node[27]= 0
+
+[READDATA]::line:
+Color,Nathan Greno,324,100,15,284,Donna Murphy,799,200807262,Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance,Brad Garrett,Tangled ,294810,2036,M.C. Gainey,1,17th century|based on fairy tale|disney|flower|tower,http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1,387,English,USA,PG,260000000,2010,553,7.8,1.85,29000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Nathan Greno
+[readData]:data at node[1]= Nathan Greno
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 324
+[readData]:data at node[2]= 324
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 100
+[readData]:data at node[3]= 100
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 15
+[readData]:data at node[4]= 15
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 284
+[readData]:data at node[5]= 284
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Donna Murphy
+[readData]:data at node[6]= Donna Murphy
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 799
+[readData]:data at node[7]= 799
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 200807262
+[readData]:data at node[8]= 200807262
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance
+[readData]:data at node[9]= Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Brad Garrett
+[readData]:data at node[10]= Brad Garrett
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Tangled 
+[readData]:data at node[11]= Tangled 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 294810
+[readData]:data at node[12]= 294810
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 2036
+[readData]:data at node[13]= 2036
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : M.C. Gainey
+[readData]:data at node[14]= M.C. Gainey
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 1
+[readData]:data at node[15]= 1
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : 17th century|based on fairy tale|disney|flower|tower
+[readData]:data at node[16]= 17th century|based on fairy tale|disney|flower|tower
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 387
+[readData]:data at node[18]= 387
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG
+[readData]:data at node[21]= PG
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 260000000
+[readData]:data at node[22]= 260000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2010
+[readData]:data at node[23]= 2010
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 553
+[readData]:data at node[24]= 553
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.8
+[readData]:data at node[25]= 7.8
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 1.85
+[readData]:data at node[26]= 1.85
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 29000
+
+[readData]:data at node[27]= 29000
+
+[READDATA]::line:
+Color,Joss Whedon,635,141,0,19000,Robert Downey Jr.,26000,458991599,Action|Adventure|Sci-Fi,Chris Hemsworth,Avengers: Age of Ultron ,462669,92000,Scarlett Johansson,4,artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero,http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1,1117,English,USA,PG-13,250000000,2015,21000,7.5,2.35,118000
+
+[readData]:Scanned
+ NUMBER OF HEADERS: 28
+ NUMBER OF HEADERS: 28
+i:0
+[READDATA]:First Run
+line : Color
+[readData]:data at node[0]= Color
+ NUMBER OF HEADERS: 28
+i:1
+[READDATA]:Second run
+line : Joss Whedon
+[readData]:data at node[1]= Joss Whedon
+ NUMBER OF HEADERS: 28
+i:2
+[READDATA]:Second run
+line : 635
+[readData]:data at node[2]= 635
+ NUMBER OF HEADERS: 28
+i:3
+[READDATA]:Second run
+line : 141
+[readData]:data at node[3]= 141
+ NUMBER OF HEADERS: 28
+i:4
+[READDATA]:Second run
+line : 0
+[readData]:data at node[4]= 0
+ NUMBER OF HEADERS: 28
+i:5
+[READDATA]:Second run
+line : 19000
+[readData]:data at node[5]= 19000
+ NUMBER OF HEADERS: 28
+i:6
+[READDATA]:Second run
+line : Robert Downey Jr.
+[readData]:data at node[6]= Robert Downey Jr.
+ NUMBER OF HEADERS: 28
+i:7
+[READDATA]:Second run
+line : 26000
+[readData]:data at node[7]= 26000
+ NUMBER OF HEADERS: 28
+i:8
+[READDATA]:Second run
+line : 458991599
+[readData]:data at node[8]= 458991599
+ NUMBER OF HEADERS: 28
+i:9
+[READDATA]:Second run
+line : Action|Adventure|Sci-Fi
+[readData]:data at node[9]= Action|Adventure|Sci-Fi
+ NUMBER OF HEADERS: 28
+i:10
+[READDATA]:Second run
+line : Chris Hemsworth
+[readData]:data at node[10]= Chris Hemsworth
+ NUMBER OF HEADERS: 28
+i:11
+[READDATA]:Second run
+line : Avengers: Age of Ultron 
+[readData]:data at node[11]= Avengers: Age of Ultron 
+ NUMBER OF HEADERS: 28
+i:12
+[READDATA]:Second run
+line : 462669
+[readData]:data at node[12]= 462669
+ NUMBER OF HEADERS: 28
+i:13
+[READDATA]:Second run
+line : 92000
+[readData]:data at node[13]= 92000
+ NUMBER OF HEADERS: 28
+i:14
+[READDATA]:Second run
+line : Scarlett Johansson
+[readData]:data at node[14]= Scarlett Johansson
+ NUMBER OF HEADERS: 28
+i:15
+[READDATA]:Second run
+line : 4
+[readData]:data at node[15]= 4
+ NUMBER OF HEADERS: 28
+i:16
+[READDATA]:Second run
+line : artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero
+[readData]:data at node[16]= artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero
+ NUMBER OF HEADERS: 28
+i:17
+[READDATA]:Second run
+line : http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1
+[readData]:data at node[17]= http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1
+ NUMBER OF HEADERS: 28
+i:18
+[READDATA]:Second run
+line : 1117
+[readData]:data at node[18]= 1117
+ NUMBER OF HEADERS: 28
+i:19
+[READDATA]:Second run
+line : English
+[readData]:data at node[19]= English
+ NUMBER OF HEADERS: 28
+i:20
+[READDATA]:Second run
+line : USA
+[readData]:data at node[20]= USA
+ NUMBER OF HEADERS: 28
+i:21
+[READDATA]:Second run
+line : PG-13
+[readData]:data at node[21]= PG-13
+ NUMBER OF HEADERS: 28
+i:22
+[READDATA]:Second run
+line : 250000000
+[readData]:data at node[22]= 250000000
+ NUMBER OF HEADERS: 28
+i:23
+[READDATA]:Second run
+line : 2015
+[readData]:data at node[23]= 2015
+ NUMBER OF HEADERS: 28
+i:24
+[READDATA]:Second run
+line : 21000
+[readData]:data at node[24]= 21000
+ NUMBER OF HEADERS: 28
+i:25
+[READDATA]:Second run
+line : 7.5
+[readData]:data at node[25]= 7.5
+ NUMBER OF HEADERS: 28
+i:26
+[READDATA]:Second run
+line : 2.35
+[readData]:data at node[26]= 2.35
+ NUMBER OF HEADERS: 28
+i:27
+[READDATA]:Second run
+line : 118000
+
+[readData]:data at node[27]= 118000
+
+[PRINTDATA]:Entering
+color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+chosenColumn: 11
+[MAIN]:Before Merge
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Avatar 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Pirates of the Caribbean: At World's End 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Avatar 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Spectre 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Spectre 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:The Dark Knight Rises 
+[merge]:rightList:
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Right NULL return Left
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Avatar 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Avatar 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:The Dark Knight Rises 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:The Dark Knight Rises 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spectre 
+[merge]:rightList:The Dark Knight Rises 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:John Carter 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Subdivide List
+[subDivide]:ENtering
+[mergeSort]:Recursive Left
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Recursive Right
+[mergeSort]:Initializing
+[mergeSort]:Result NULL?
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:Tangled 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Tangled 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Tangled 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Right NULL return Left
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:John Carter 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:John Carter 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:John Carter 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spider-Man 3 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Left NULL return Right
+[mergeSort]:Merge
+[MERGESORT]:LEFTLIST:
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Avatar 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Avengers: Age of Ultron 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:John Carter 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Pirates of the Caribbean: At World's End 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:Spectre 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:Less than 1 
+[merge]:Less than 1 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:The Dark Knight Rises 
+[merge]:rightList:Spider-Man 3 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:leftList:The Dark Knight Rises 
+[merge]:rightList:Tangled 
+[merge]:SWITCH. index:11
+[merge]:More than 1 
+[merge]:leftList:The Dark Knight Rises 
+[merge]:ENTERING 
+[merge]:Is left or right NULL
+[merge]:Right NULL return Left
+[PRINTDATA]:Entering
+color,director_name,num_critic_for_reviews,duration,director_facebook_likes,actor_3_facebook_likes,actor_2_name,actor_1_facebook_likes,gross,genres,actor_1_name,movie_title,num_voted_users,cast_total_facebook_likes,actor_3_name,facenumber_in_poster,plot_keywords,movie_imdb_link,num_user_for_reviews,language,country,content_rating,budget,title_year,actor_2_facebook_likes,imdb_score,aspect_ratio,movie_facebook_likes
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Color,James Cameron,723,178,0,855,Joel David Moore,1000,760505847,Action|Adventure|Fantasy|Sci-Fi,CCH Pounder,Avatar ,886204,4834,Wes Studi,0,avatar|future|marine|native|paraplegic,http://www.imdb.com/title/tt0499549/?ref_=fn_tt_tt_1,3054,English,USA,PG-13,237000000,2009,936,7.9,1.78,33000
+
+Color,Joss Whedon,635,141,0,19000,Robert Downey Jr.,26000,458991599,Action|Adventure|Sci-Fi,Chris Hemsworth,Avengers: Age of Ultron ,462669,92000,Scarlett Johansson,4,artificial intelligence|based on comic book|captain america|marvel cinematic universe|superhero,http://www.imdb.com/title/tt2395427/?ref_=fn_tt_tt_1,1117,English,USA,PG-13,250000000,2015,21000,7.5,2.35,118000
+
+Color,Andrew Stanton,462,132,475,530,Samantha Morton,640,73058679,Action|Adventure|Sci-Fi,Daryl Sabara,John Carter ,212204,1873,Polly Walker,1,alien|american civil war|male nipple|mars|princess,http://www.imdb.com/title/tt0401729/?ref_=fn_tt_tt_1,738,English,USA,PG-13,263700000,2012,632,6.6,2.35,24000
+
+Color,Gore Verbinski,302,169,563,1000,Orlando Bloom,40000,309404152,Action|Adventure|Fantasy,Johnny Depp,Pirates of the Caribbean: At World's End ,471220,48350,Jack Davenport,0,goddess|marriage ceremony|marriage proposal|pirate|singapore,http://www.imdb.com/title/tt0449088/?ref_=fn_tt_tt_1,1238,English,USA,PG-13,300000000,2007,5000,7.1,2.35,0
+
+Color,Sam Mendes,602,148,0,161,Rory Kinnear,11000,200074175,Action|Adventure|Thriller,Christoph Waltz,Spectre ,275868,11700,Stephanie Sigman,1,bomb|espionage|sequel|spy|terrorist,http://www.imdb.com/title/tt2379713/?ref_=fn_tt_tt_1,994,English,UK,PG-13,245000000,2015,393,6.8,2.35,85000
+
+Color,Sam Raimi,392,156,0,4000,James Franco,24000,336530303,Action|Adventure|Romance,J.K. Simmons,Spider-Man 3 ,383056,46055,Kirsten Dunst,0,sandman|spider man|symbiote|venom|villain,http://www.imdb.com/title/tt0413300/?ref_=fn_tt_tt_1,1902,English,USA,PG-13,258000000,2007,11000,6.2,2.35,0
+
+Color,Nathan Greno,324,100,15,284,Donna Murphy,799,200807262,Adventure|Animation|Comedy|Family|Fantasy|Musical|Romance,Brad Garrett,Tangled ,294810,2036,M.C. Gainey,1,17th century|based on fairy tale|disney|flower|tower,http://www.imdb.com/title/tt0398286/?ref_=fn_tt_tt_1,387,English,USA,PG,260000000,2010,553,7.8,1.85,29000
+
+Color,Christopher Nolan,813,164,22000,23000,Christian Bale,27000,448130642,Action|Thriller,Tom Hardy,The Dark Knight Rises ,1144337,106759,Joseph Gordon-Levitt,0,deception|imprisonment|lawlessness|police officer|terrorist plot,http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1,2701,English,USA,PG-13,250000000,2012,23000,8.5,2.35,164000
+

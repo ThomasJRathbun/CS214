@@ -137,6 +137,7 @@ int main(int argc, char *argv[])
      printf("[MAIN]:Before Merge\n");
      mergeSort( &data, chosenColumn ,strcmp);
      head->next = data;
+     printf("---***---\n");
      printData(head, numOfHeaders);
      return 0;
  }

@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 //Read in data and insert nodes into Linked List
 void readData( node * head, int _numHeaders )
 {
@@ -14,50 +15,93 @@ void readData( node * head, int _numHeaders )
   printf("[readData]:Initialized\n");
   //  while ( scanf("%ms", &line ) != EOF )
   while( getline(&line, &size,stdin) != -1)
-  {
-    printf("[readData]:Scanned\n");
-    if ( newNode->next == NULL && newNode->data == NULL )
-      {
-	newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
-	newNode->next = NULL;
-      }
-    else 
-      {
-	while ( newNode->next != NULL )
-	  {
-	    node * prev = newNode;
-	    newNode = newNode->next;
-	    prev->next = newNode;
-	  }
-	newNode->next = (node*)malloc(sizeof(node));
-	node * prev = newNode;
-	newNode = newNode->next;
-	prev->next = newNode;
-      }
+    {
+      printf("[READDATA]::line:\n%s\n",line);
+      printf("[readData]:Scanned\n");
+
+      char * s = line;
+      bool onlySpaces = FALSE;
+      while( *s != '\0')
+	{
+	  if ( !isspace(*s))
+	    break;
+	  else
+	    {
+	      s++;
+	    }
+	  onlySpaces =TRUE;
+	}
+      if( onlySpaces)
+	{
+	  continue;
+	}
+
+
+      if (line == "")
+	{
+	  printf("[READDATA]::lineEMPTY:\n%s\n",line);
+	  line = NULL;
+	  continue;
+	}
+      if ( newNode->next == NULL && newNode->data == NULL )
+	{
+	  newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
+	  newNode->next = NULL;
+	}
+      else 
+	{
+	  while ( newNode->next != NULL )
+	    {
+	      node * prev = newNode;
+	      newNode = newNode->next;
+	      prev->next = newNode;
+	    }
+	  newNode->next = (node*)malloc(sizeof(node));
+	  node * prev = newNode;
+	  newNode = newNode->next;
+	  prev->next = newNode;
+	}
     
-    newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
-    newNode->next = NULL;
-    int i = 0;
-    printf(" NUMBER OF HEADERS: %d", _numHeaders);
-    for (i; i<_numHeaders; i++)
-      {
-	printf(" NUMBER OF HEADERS: %d\n", _numHeaders);
-	if( i ==0)
-	  line = strtok( line, ",");
-	else
-	  line = strtok( NULL, ",");
-	if ( line == "" || line == NULL )
-	  {
-	    newNode->data[i] = "";
-	    continue;
-	  }
-	printf("line : %s\n",line);
-	newNode->data[i] = (char*)malloc(sizeof(char) * strlen(line)+1);
-	newNode->data[i] = line;
-	printf("[readData]:data at node[%d]= %s\n",i,newNode->data[i]);
-      }
-    line = NULL;
-  }
+      newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
+      newNode->next = NULL;
+
+
+      printf(" NUMBER OF HEADERS: %d\n", _numHeaders);
+
+
+      int i = 0;
+      char *tok = line;
+      char *end = line;
+      for (i=0; i<_numHeaders; i++)
+	{
+	  /*
+	  printf(" NUMBER OF HEADERS: %d\n", _numHeaders);
+	  printf("i:%d\n",i);
+	  if( i == 0)
+	    {
+	      printf("[READDATA]:First Run\n");
+	      line = strtok( &line, ",");
+	    }
+	  else
+	    {
+	      printf("[READDATA]:Second run\n");
+	      line = strsep( &line, ",");
+	    }
+	  //	  if ( line == "" || line == NULL )
+	  //	    {
+	  //	      newNode->data[i] = "";
+	  //	      continue;
+	  }*/
+	  tok = strsep(&end, ",");
+	  
+	  printf("line : %s\n",tok);
+	  newNode->data[i] = (char*)malloc(sizeof(char) * strlen(line)+1);
+	  newNode->data[i] = tok;
+	  printf("[readData]:data at node[%d]= %s\n",i,newNode->data[i]);
+	}
+      
+      line = NULL;
+    }
 }
 
 
