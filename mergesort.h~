@@ -1,6 +1,7 @@
 #ifndef MERGESORT_H
 #define MERGESORT_H
 
+<<<<<<< HEAD
 
 typedef enum _bool{FALSE, TRUE}bool;
 
@@ -21,5 +22,12 @@ void merge( node* head, int left, int mid , int right, int index, int (*)(void*,
 void mergesort( node* head, int left, int right, int index,  int (*)(void*,void*));
 */
 
+=======
+void mergeSort
+
+
+
+
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
 
 #endif

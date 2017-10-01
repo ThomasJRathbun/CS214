@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
+<<<<<<< HEAD
 //#include "Sorter.h"
 #include <string.h>
 #include "mergesort.h"
@@ -182,3 +183,19 @@ int main(int argc, char *argv[])
      return 0;
  }
 */
+=======
+#include "Sorter.h"
+
+
+int main(int argc, char *argv[])
+{
+  char * headers = '\0';
+  fscanf(stdin, "%s", headers);
+
+  
+  
+  
+  return 0;
+}
+
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc

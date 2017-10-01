@@ -70,6 +70,7 @@ void printData( node * head, int _numHeaders)
   return;
 }
 
+<<<<<<< HEAD
 node* merge(node * leftList, node* rightList,int index, int (*comp)(void*,void*))
 {
   printf("[merge]:Is left or right NULL\n");
@@ -155,6 +156,10 @@ void mergeSort( node ** head, int index,  int (*comp)(void*,void*))
 
 /*
 void merge( node * head, int left, int mid, int right , int index , int (*comp)(void*, void* )){
+=======
+
+void merge( node * head, int left, int mid, int right , int index , int (*comp)(void*,void* )){
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
   printf( "[merge]:Initializing\n");
 
   int nodesInLeft  = mid - left + 1;
@@ -182,6 +187,7 @@ void merge( node * head, int left, int mid, int right , int index , int (*comp)(
   node * curr = head;
   while ( i < nodesInLeft && j < nodesInRight )
     {
+<<<<<<< HEAD
       printf( "***********\n");
       printData( rightList, 4);
       printData( leftList, 4);
@@ -195,6 +201,10 @@ void merge( node * head, int left, int mid, int right , int index , int (*comp)(
       printf( "[merge]::index %d\n",index+1);
       printf( "[merge]::left:%s|| right:%s \n",leftList->data[index],rightList->data[index]);
       switch ((*comp)(leftList->data[index],rightList->data[index]))
+=======
+      printf( "[merge]::WHILE:checking data\n");
+      switch (comp(leftList->data[index],rightList->data[index]))
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
 	{
 	case -1:
 	  {
@@ -225,6 +235,7 @@ void merge( node * head, int left, int mid, int right , int index , int (*comp)(
 	  }
 	}
       printf( "[merge]:EXIT \n");
+<<<<<<< HEAD
       head = leftList;
       node * curr = leftList;
       while ( curr->next != NULL )
@@ -233,6 +244,8 @@ void merge( node * head, int left, int mid, int right , int index , int (*comp)(
 	}
       curr->next = rightList;
       return;
+=======
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
     }
 }
 void mergesort( node * head, int left, int right, int index, int ((*comp)(void * , void * )))
@@ -249,10 +262,17 @@ void mergesort( node * head, int left, int right, int index, int ((*comp)(void *
       printf( "[mergeSort]:Sorted Right \n");
       merge( head, left, mid, right,index, comp);
       printf( "[mergeSort]:Merged\n");
+<<<<<<< HEAD
       printf( "[mergeSort]:NewHead:%s\n",head->data[index]);
+=======
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
     }
   else
     return;
 }
 
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> 2dc39753c67234149bdf2a7a1314260f010a74bc
