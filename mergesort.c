@@ -176,9 +176,10 @@ void printData( node * head, int _numHeaders)
 	  else
 	    printf("%s,",curr->data[i]);
 	}
-	curr = curr->next;
+      printf("\n");  
+      curr = curr->next;
     }
-  printf("\n");  
+
   return;
 }
 
