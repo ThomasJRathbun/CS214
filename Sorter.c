@@ -25,23 +25,23 @@ typedef struct _node
  */
 int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a head of list
 {
-  printf("[ENTERING][getHeader] \n");
+  //  printf("[ENTERING][getHeader] \n");
   char * line;
   char * orig = NULL;
   int chosenHeader =0;
   bool found=FALSE;
   scanf("%ms", &line);
   
-  printf("[getHeader]:gotline\n");
+  //  printf("[getHeader]:gotline\n");
   
   orig = (char*) malloc( sizeof(char) * strlen(line)+1);
   memcpy( orig, line, strlen(line)+1);
 
-  printf("[getHeader:Before While]:%s \n",line);
-    printf("[getHeader:Before While]:headerTitle %s \n",headerTitle);
+  //  printf("[getHeader:Before While]:%s \n",line);
+  //    printf("[getHeader:Before While]:headerTitle %s \n",headerTitle);
     while( line != NULL )
     {
-      printf("[getHeader:Inside While]: first Print %s\n",line);      
+      //      printf("[getHeader:Inside While]: first Print %s\n",line);      
       if(*numberOfHeaders ==0 )
 	{
 	  line = strtok( line, ",");
@@ -53,7 +53,7 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a he
 
       if ( line == NULL)
 	{
-	  printf("[getHeader:Inside While]: BREAKING\n");
+	  //	  printf("[getHeader:Inside While]: BREAKING\n");
 	  break;
 	}
       
@@ -62,7 +62,7 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a he
 	  chosenHeader = *numberOfHeaders;
 	  found = TRUE;
 	}
-      printf("[getHeader:Inside While]: increment: %d\n",*numberOfHeaders);
+      //      printf("[getHeader:Inside While]: increment: %d\n",*numberOfHeaders);
       (*numberOfHeaders)++;
       
     }
@@ -118,26 +118,26 @@ int main(int argc, char *argv[])
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
 
      node * data = (node*)malloc(sizeof(node));
-     printf("[MAIN]:before Read\n");
+     //     printf("[MAIN]:before Read\n");
      readData( data, numOfHeaders);
 
      //     head->next = data;
-     printData( head, numOfHeaders);
+     //     printData( head, numOfHeaders);
 
      if(chosenColumn != -1)
        {
-	 printf("chosenColumn: %d\n",chosenColumn);
+	 //	 printf("chosenColumn: %d\n",chosenColumn);
        }
      else
        {
-	 printf("header: %s does not exist\n",headerTitle);
+	 //	 printf("header: %s does not exist\n",headerTitle);
 	 return -1;
        }
      
-     printf("[MAIN]:Before Merge\n");
-     mergeSort( &data, chosenColumn ,strcmp);
+     //     printf("[MAIN]:Before Merge\n");
+     mergeSort( &data, chosenColumn ,checkString);
      head->next = data;
-     printf("---***---\n");
+     //     printf("---***---\n");
      printData(head, numOfHeaders);
      return 0;
  }
