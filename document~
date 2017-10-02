@@ -1,0 +1,104 @@
+NAME
+	mergeSort
+
+DESCRIPTION
+	Takes in csv through stdin prints the values into sorted order
+	
+	-c [header name](required)
+		required to choose witch heading to sort by.
+		
+USE EXAMPLE
+    cat movie_metadata.csv | ./sorter.out -c movie_title
+
+AUTHORS
+	Thomas Rathbun
+	Eric Rogers
+
+INFORMATION
+	Sorter takes the string data and stores it all in a linked list.
+	Each node contains a char** in order to store files with varying
+	numbers of headers. 
+
+	ReadData reads data from stdin, after checking that each line has
+	data to place into a node, and that it is not whitespace, the
+	node is created and the line is seperated by the ','. Each value
+	is stored at node[i]->data[j].
+
+	PrintData uses a node* to move throught the Linked List printing
+	the data line by line.
+
+	CheckString takes two arguements, string1 and string2. These two
+	strings are compared based on letter order and ignores whitespace
+	and quotations. This function returns an int -1 if string1 is 
+	first lexographically, 1 if string2 is first lexographically or
+	0 if the two strings are equivalent.
+
+	Merge takes two lists, compares them based on the value that was
+	selected at execution using -c and merges them with the resulting
+	sorted. If the left list is NULL it returns the right list,
+	because there is nothing to compare.If the right list is NULL it
+	returns the left list, because there is nothing to compare.
+	Then the comparisons are made. If the comparator returns < 0 the
+	left list is placed at the head of the result and it's next node
+	is the result of a recursive merge using the next element of the
+	left and the current element of the right. If the comparator 
+	returns > 0, the same is done except the resulting list is set to
+	the right list and the next node is the result of the left list
+	merged with the next node of the right list.
+
+	Subdivide splits the list in half. This is done by using two 
+	pointers. One which is slow, the other which is fast. The fast
+	node moves twice as many nodes as the first. When the fast node
+	reaches the end of the list the slow node will be at the half way
+	point.
+
+	Mergesort creates a left list, a right list, and a result list.
+	The result is set to the head of the list and if it or its next
+	node are NULL, the list is already sorted, either one data entry
+	or no data entries. The list is them subdivided into the left and
+	right lists, and then each list is called in a recursive 
+	Mergesort call. Each list will be subdivided into singular lists.
+	once they cannot be subdivided anymore the will continue to the
+	merge function which will merge the lists in order.
+
+THOUGHTS ABOUT THE PROJECT
+	 In the beggining the project seemed like it be easy but,
+	 reading in the values became a problem when the file had 
+	 data missing from some entries. Having used a char** to store
+	 the data as apposed to using an array of strings with known
+	 elements made it difficult to keep the data in its appropriate
+	 order. Using a char** was to create a generic sorting program
+	 which could sort files with varying numbders of headers.
+	 
+	 In order to counteract this issue, I tried many things,different
+	 four loops with multiple copies of the line and the strtok()
+	 function in order to track how many leading commas were in the
+	 file at any given point. This was an awful decision and after
+	 researching different methods, my partner and I came accross the
+	 strsep() function. This did exactly what we needed and allowed	
+	 us to keep the sorter generic. 
+
+	 Another issue in the beggining was trying to treat the sorting
+	 algorithm as if it was sorting an array. Though the technique of
+	 divide and conquor was the same, the use of pointers as apposed
+	 to multiple arrays lead to a more confusing time coding. The
+	 subdivide function required the node *head as well as node**
+	 left and node** right. These needed to be double pointers in 
+	 order to change what the actually pointed to, outside the
+	 function. 
+	 
+	 Still at this point our sorter is not complete. It can only 
+	 sort strings. Trying from the begging to make this program
+	 run on generic data, and not having a good way to handle
+	 missing data, lead to a lot of trial and error, and lead
+	 to lots of wasted time. Also seeing that the data should
+	 be sorted in Lexicalgraphical order, in the same way that
+	 strcmp() does, made if seem as though strcmp was the best
+	 choice for a string comparator; writing one that could ignore
+	 quotations and skip spaces seemed to produce more accurate
+	 results. 
+
+
+
+
+
