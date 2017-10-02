@@ -1,28 +1,9 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-//#include "Sorter.h"
 #include <string.h>
 #include "mergesort.h"
-//Need to write comparators for string, longs,
-// ./sort -c movie_title
 
-/*
-typedef enum _bool{FALSE, TRUE}bool;
-
-typedef struct _node
-{
-  char ** data;
-  struct _node * next;
-}node;
-
-*/
-
-/*getHeader
-  getHeader grabs the headings from the csv file and places it in the head node of the linked list
-  It returns the column number that is being sorted and sets by reference the number of headings.
-
- */
 int getHeader(node * head, char * headerTitle, int * numberOfHeaders)//take a head of list
 {
   //  printf("[ENTERING][getHeader] \n");

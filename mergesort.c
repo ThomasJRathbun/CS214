@@ -172,12 +172,13 @@ void printData( node * head, int _numHeaders)
       for (i = 0 ; i< _numHeaders; i++)
 	{
 	  if ( (_numHeaders - i) == 1)
-	    printf("%s\n",curr->data[i]);
+	    printf("%s",curr->data[i]);
 	  else
 	    printf("%s,",curr->data[i]);
 	}
 	curr = curr->next;
     }
+	    printf("\n");  
   return;
 }
 
