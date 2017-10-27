@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 
      if(chosenColumn != -1)
        {
-	 printf("chosenColumn: %d\n",chosenColumn);
+	 //	 printf("chosenColumn: %d\n",chosenColumn);
        }
      else
        {

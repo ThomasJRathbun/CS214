@@ -67,7 +67,7 @@ int checkString( char* arg1, char* arg2 )
     }
   for( i=0; i < strlen(arg2);i++)
     {
-      arg2[i] = tolower( arg2[i]);
+      arg2[i] = tolower(arg2[i]);
     }
   i = 0;
   int j =0;
@@ -114,26 +114,11 @@ void readData( node * head, int _numHeaders )
   char* line = NULL;
   size_t size;
   node * newNode = head;
+  int c =0;
   while( getline(&line, &size,stdin) != -1)
     {
       char * s = line;
       bool onlySpaces = FALSE;
-      while( *s != '\0')
-	{
-	  if ( !isspace(*s))
-	    break;
-	  else
-	    {
-	      s++;
-	    }
-	  onlySpaces =TRUE;
-	}
-      if( onlySpaces)
-	{
-	  continue;
-	}
-
-
       if (line == "")
 	{
 	  line = NULL;
@@ -151,11 +136,13 @@ void readData( node * head, int _numHeaders )
 	      node * prev = newNode;
 	      newNode = newNode->next;
 	      prev->next = newNode;
+	    
 	    }
 	  newNode->next = (node*)malloc(sizeof(node));
 	  node * prev = newNode;
 	  newNode = newNode->next;
 	  prev->next = newNode;
+	  
 	}
 
       newNode->data = (char**)malloc(sizeof(char*) * _numHeaders);
@@ -164,15 +151,47 @@ void readData( node * head, int _numHeaders )
       int i = 0;
       char *tok = line;
       char *end = line;
+      char * specialTok = NULL;
+      bool specialFound = FALSE;
       for (i=0; i<_numHeaders; i++)
 	{
+
 	  tok = strsep(&end, ",");
+	  if(tok != NULL && tok[0] == '"')
+	    {
+	      char* tmp = (char*)malloc(sizeof(char)*strlen(tok)+1);
+	      strcpy(tmp,tok);
+	      tok = strsep(&end, "\"");
+	      specialTok = (char*)malloc(sizeof(char) * (strlen(tmp) + strlen(tok) + 3));
+	      strcpy(specialTok,tmp);
+	      strcat(specialTok,",");
+	      strcat(specialTok,tok);
+	      strcat(specialTok,"\"");
+	      specialFound = TRUE;
+	      tok = strsep(&end,",");
+	    }
+	  
+
+	  if(tok == NULL || tok == "")
+	    {
+	      newNode->data[i] = (char*)malloc(sizeof(char));
+	      newNode->data[i] = "\0";
+	      continue;
+	    }
+
 	  newNode->data[i] = (char*)malloc(sizeof(char) * strlen(line)+1);
-	  newNode->data[i] = tok;
-
+	  if ( specialFound == FALSE)
+	    {
+	      newNode->data[i] = tok;
+	    }
+	  else
+	    {
+	      newNode->data[i] = specialTok;
+	      specialFound = FALSE;
+	    }
 	}
-
       line = NULL;
+      c++;
     }
 }
 
@@ -182,7 +201,6 @@ void printData( node * head, int _numHeaders)
   node * curr = head;
   int i = 0;
   int l = 0;
-  int c =0;
   while( curr != NULL)
     {
       
@@ -197,21 +215,16 @@ void printData( node * head, int _numHeaders)
 	    }
 	  if ( (_numHeaders - i) == 1)
 	    {	     
-	      //	      printf("%s",curr->data[i]);
+	      	      printf("%s",curr->data[i]);
 	    }
 	  else
 	    {
-	      //	      printf("%s,",curr->data[i]);
+	      	      printf("%s,",curr->data[i]);
 	    }
 	}
       printf("\n");
       curr = curr->next;
-            c++;
-            printf("row:%d\n",c);
-      
     }
-  
-
   return;
 }
 
