@@ -10,6 +10,7 @@ typedef struct _node
   struct _node* next;
 }node;
 
+int getHeader(node*, char*, int*);
 int checkString(char*, char*);
 void mergeSort( node ** ,int, int (*)(void*,void*));
 node * merge( node *, node*,int, int (*)(void*,void*));
