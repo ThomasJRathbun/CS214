@@ -58,6 +58,8 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)
     return -1;
 }
 
+//int check
+
 int checkString( char* arg1, char* arg2 )
 {
   int i = 0;
