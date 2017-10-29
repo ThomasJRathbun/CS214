@@ -11,12 +11,13 @@ typedef struct _node
 }node;
 
 int getHeader(node*, char*, int*);
-int checkString(char*, char*);
+int checkString(void*, void*);
+int checkInteger(void*, void*);
 void mergeSort( node ** ,int, int (*)(void*,void*));
 node * merge( node *, node*,int, int (*)(void*,void*));
 void subdivide( node*, node**, node**);
 void printData( node*, int);
-void readData ( node*, int);
+bool readData ( node*, int, int);
 
 
 

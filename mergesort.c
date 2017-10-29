@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
+#include <ctype.h>
+#include <math.h>
 
 int getHeader(node * head, char * headerTitle, int * numberOfHeaders)
 {
@@ -58,39 +59,86 @@ int getHeader(node * head, char * headerTitle, int * numberOfHeaders)
     return -1;
 }
 
-//int check
+int checkInteger( void* a , void* b )
+{
+  /*
+  long aa =0;
+  long bb =0;
+  char* c = (char*)a;
+  char* d= (char*)b;
+  int i = 0;
+  for (i =0; i< strlen(c);i++)
+    {
+      aa += atoi(c) * pow(10,strlen((char*)a)-i);
+    }
+  for (i =0; i< strlen((char*)a)-1;i++)
+    {
+      *c = ((char*)b)[i];
+      bb += atoi(c) * pow(10,strlen((char*)b)-i);
+    }
 
-int checkString( char* arg1, char* arg2 )
+    if ( aa < bb )
+    {
+      return -1;
+    }
+  else
+    {
+      return 1;
+    }
+    */
+  if (strlen(a) < strlen(b))
+    {
+      return -1;
+    }
+  else if (strlen(b) < strlen(a))
+    {
+      return 1;
+    }
+  
+  if ( (unsigned int)atoi( (char*)a) < (unsigned int)atoi( (char*)b))
+    {
+      return -1;
+    }
+  else
+    {
+      return 1;
+    }
+  
+}
+
+int checkString( void* arg1, void* arg2 )
 {
   int i = 0;
-  for( i=0; i < strlen(arg1);i++)
+  char* a = (char*)arg1;
+  char* b = (char*)arg2;
+  for( i=0; i < strlen(a);i++)
     {
-      arg1[i] = tolower( arg1[i]);
+      a[i] = tolower( a[i]);
     }
-  for( i=0; i < strlen(arg2);i++)
+  for( i=0; i < strlen(b);i++)
     {
-      arg2[i] = tolower(arg2[i]);
+      b[i] = tolower(b[i]);
     }
   i = 0;
   int j =0;
-  char* c1;
-  char* c2;
-  while( i < strlen(arg1) || j < strlen(arg2) )
+  char c1;
+  char c2;
+  while( i < strlen(a) || j < strlen(b) )
     {
-      while(isspace(arg1[i]) || arg1[i] == '\"')
+      while(isspace(a[i]) || a[i] == '\"')
 	{
 	  i++;
-	  if( i > strlen(arg1))
+	  if( i > strlen(a))
 	    break;
 	}
-      while(isspace(arg2[j]) || arg2[j] == '\"')
+      while(isspace(b[j]) || b[j] == '\"')
 	{
-	  if( j > strlen(arg2))
+	  if( j > strlen(b))
 	    break;
 	  j++;
 	}
-      c1 = arg1[i];
-      c2 = arg2[j];
+      c1 = a[i];
+      c2 = b[j];
       if(c1 == c2)
 	{
 	  i++;
@@ -111,12 +159,13 @@ int checkString( char* arg1, char* arg2 )
   return 0;
 }
 
-void readData( node * head, int _numHeaders )
+bool readData( node * head, int _numHeaders, int chosen )
 {
   char* line = NULL;
   size_t size;
   node * newNode = head;
   int c =0;
+  bool isNumber = TRUE;
   while( getline(&line, &size,stdin) != -1)
     {
       char * s = line;
@@ -191,10 +240,28 @@ void readData( node * head, int _numHeaders )
 	      newNode->data[i] = specialTok;
 	      specialFound = FALSE;
 	    }
+	  int l = 0;
+	  char* ind = newNode->data[i];
+	  if ( i == chosen )
+	    {
+	      if ( isNumber == TRUE )
+		{
+		  for(l=0; l < strlen(newNode->data[i]);l++)
+		    {
+		      if( ((*ind) - '0') <= 9 )
+			{
+			  continue;
+			}
+		      else
+			isNumber = FALSE;
+		    }
+		}
+	    }
 	}
       line = NULL;
       c++;
     }
+  return isNumber;
 }
 
 

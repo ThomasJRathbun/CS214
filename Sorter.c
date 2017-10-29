@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
      chosenColumn = getHeader(head, headerTitle, &numOfHeaders);
 
      node * data = (node*)malloc(sizeof(node));
-     readData( data, numOfHeaders);
+     bool isNumber = TRUE;
+    
+     isNumber = readData( data, numOfHeaders, chosenColumn);
 
      if(chosenColumn != -1)
        {
@@ -48,7 +50,14 @@ int main(int argc, char *argv[])
 	 printf("header: %s does not exist\n",headerTitle);
 	 return -1;
        }
-     mergeSort( &data, chosenColumn ,checkString);
+     if( isNumber == TRUE )
+       {
+	 mergeSort( &data, chosenColumn ,checkInteger);
+       }
+     else
+       {
+	 mergeSort( &data, chosenColumn ,checkString);
+       }
      head->next = data;
      printData(head, numOfHeaders);
      return 0;
